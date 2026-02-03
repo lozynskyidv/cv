@@ -257,41 +257,20 @@ education:
 
 **DO NOT copy cv_master.yaml profile verbatim!** Tailor it to THIS specific role.
 
-**Match to role type:**
-- **0-to-1 roles:** Lead with "Founder of WorthView" or "Built WorthView as founder from conception to production..." 
-- **Growth roles:** Lead with "Product-driven growth leader who delivered 44% YoY growth..."
-- **Technical roles:** Lead with "Product builder with hands-on technical execution..."
-- **Data/Analytics roles:** Lead with "Data-driven product leader with SQL/analytics expertise..."
-- **Domain-specific roles:** Lead with relevant domain (FinTech, eCommerce, etc.)
-- Note: "Founder of X" is cleaner than "Founder who built X"
-
-**Formula:**
-- Sentence 1: Your unique positioning for THIS role (founder + relevant achievement)
-- Sentence 2: Breadth of experience relevant to THIS job (FinTech + eCommerce)
-- Sentence 3: Skill combo that matches THEIR need (not generic)
+**Profile Structure:**
+- **Sentence 1:** Your strongest differentiator for THIS specific role
+- **Sentence 2:** Supporting experience/breadth relevant to THIS job
+- **Sentence 3:** Skill combination that matches THIS role's needs (not generic)
 
 **Length:** 250-350 characters (see Content Length Guidelines above)
-**Keep it:** 2-3 sentences max, dense with keywords from THIS job posting.
+**Keep it:** 2-3 sentences max, dense with keywords from THIS job posting
 
-**Example - Tailoring for Different Roles:**
-
-**For 0-to-1 PM:**
-```yaml
-profile: |
-  Founder of WorthView FinTech product, taking it from conception to production in 6 months with hands-on technical execution...
-```
-
-**For Growth PM:**
-```yaml
-profile: |
-  Product-driven growth leader who delivered 44% YoY growth at PetSafe Brands across 12 global eCommerce stores...
-```
-
-**For Technical PM:**
-```yaml
-profile: |
-  Product builder with hands-on technical execution, having built full-stack FinTech product with live pricing APIs...
-```
+**How to choose the opening hook:**
+- Read the job posting requirements carefully
+- Identify which of your experiences is MOST relevant
+- Lead with that (founder for 0-to-1 roles, growth metrics for growth roles, technical execution for technical roles, etc.)
+- Avoid redundant phrasing like "Founder who built" (just use "Founder of X" or "Built X from...")
+- Keep it direct and punchy - no over-engineered phrases
 
 ---
 
