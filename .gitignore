@@ -1,0 +1,14 @@
+# Output directory (keep CVs local, don't commit)
+output/*.pdf
+output/*.typ
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Keep the output directory structure
+!output/.gitkeep
