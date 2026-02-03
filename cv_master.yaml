@@ -1,5 +1,5 @@
-# Master CV Data for Dmytro Lozynskyi
-# Edit this file to tailor your CV for each job application
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
 
 personal_info:
   name: "Dmytro Lozynskyi"
@@ -8,92 +8,163 @@ personal_info:
   linkedin: "linkedin.com/in/dlozynskyi"
   location: "Dublin, Ireland"
 
-# Profile/Summary - tailor this for each role
-profile: |
-  Founder who built WorthView from 0→1, iterating from spreadsheet to production web app MVP with iOS release planned for Feb 2026. Previously drove 44% YoY organic revenue growth across 12 eCommerce stores at PetSafe through AI-driven growth strategy. 4+ years combining product management, technical execution, and growth expertise across FinTech and eCommerce. Proven track record taking products from idea to measurable business impact.
-
-education:
-  institution: "Lviv College of Information and Computer Technologies"
-  location: "Lviv, Ukraine"
-  degree: "Associate's Degree"
-  field: "Information Systems and Software Applications"
-  graduation_date: "Jul 2020"
-  gpa: "Grade: A"
-  coursework: ["Web Development", "Programming", "Network Systems", "Software Design", "Data Analysis"]
-
 experience:
   - company: "WorthView"
     title: "Founder"
     location: "London Area, United Kingdom (Remote)"
     start_date: "Feb 2025"
     end_date: "Present"
-    achievements:
-      - "Built WorthView 0→1 in 6 months, iterating from spreadsheet concept to production web app MVP serving [VERIFY: 50+] users with iOS release planned Feb 2026"
-      - "Shipped [VERIFY: 15+] core features including real-time asset tracking, live pricing integration via APIs, and liability management, achieving [VERIFY: 70%+] user retention"
-      - "Led full product lifecycle from user research through technical implementation (HTML/CSS/JS, APIs) and go-to-market strategy, validating product-market fit"
-      - "Executed product-led growth strategy combining rapid iteration, data-driven feature prioritization, and user feedback loops to drive engagement"
+    description: |
+      Built WorthView (worthview.app) end-to-end, iterating from a spreadsheet to a production web app MVP. 
+      Asset and liability tracking with live pricing. iOS release planned for Feb 2026.
+    highlights:
+      - 0→1 product development (idea to production in ~6 months)
+      - Full-stack web development
+      - Live pricing integration via APIs
+      - Asset & liability tracking
+      - Product-led growth approach
+      - Technical implementation (HTML/CSS/JavaScript, APIs)
+      - User research and go-to-market strategy
 
   - company: "PetSafe Brands"
     title: "Organic Growth Lead"
     location: "Dublin, Ireland (Hybrid)"
     start_date: "May 2022"
     end_date: "Present"
-    achievements:
-      - "Delivered 44% YoY organic revenue growth ([VERIFY: $2.5M→$3.6M]) across 12 global eCommerce stores by implementing AI-driven content strategy, technical SEO optimization, and conversion rate improvements"
-      - "Drove 3x increase in organic traffic ([VERIFY: 500K→1.5M monthly sessions]) through data-driven experimentation framework combining A/B testing, user behavior analysis, and search trend insights"
-      - "Led cross-functional growth initiatives with product, engineering, and marketing teams, shipping [VERIFY: 20+] high-impact features that improved site performance and user engagement"
-      - "Promoted from SEO Specialist to Organic Growth Lead within 18 months based on delivering measurable revenue impact and tripling EU organic performance"
+    description: |
+      Led global AI-driven organic growth across 12 eCommerce stores, delivering 44% YoY organic revenue 
+      growth in the US and Europe. Promoted from SEO Specialist to Lead within 18 months.
+    highlights:
+      - 44% YoY organic revenue growth (verified public data)
+      - 12 global eCommerce stores
+      - AI-driven content strategy
+      - Cross-functional leadership (product, engineering, marketing teams)
+      - Technical SEO and conversion optimization
+      - Promoted from SEO Specialist within 18 months
+      - Data-driven experimentation and A/B testing
+      - SEO-first approach across product launches
 
   - company: "Nestlé"
     title: "SEO Specialist"
     location: "Lviv, Ukraine (Hybrid)"
     start_date: "Jan 2021"
     end_date: "Apr 2022"
-    achievements:
-      - "Increased Maggi brand organic traffic by 72% across EMEA markets ([VERIFY: 200K→345K monthly sessions]) by implementing technical SEO improvements, content optimization, and international SEO strategy"
-      - "Collaborated with product and brand teams across [VERIFY: 8] markets to optimize digital presence, contributing to [VERIFY: 25%] increase in online engagement"
-      - "Promoted from Junior SEO Specialist to SEO Specialist within 9 months after exceeding all established KPIs ([VERIFY: 120%] of target performance)"
+    description: |
+      Led organic growth for Maggi brand across EMEA markets, increasing traffic by 72%. 
+      Promoted from Junior SEO Specialist within 9 months.
+    highlights:
+      - 72% traffic increase for Maggi brand across EMEA
+      - Multiple markets (international SEO)
+      - Technical SEO improvements and content optimization
+      - Collaboration with product and brand teams
+      - Promoted from Junior to Specialist in 9 months
+      - Exceeded all KPIs in first 6 months
 
-# Skills - tailor the order and selection for each role
+education:
+  - institution: "Y Combinator"
+    program: "Startup School"
+    location: "Remote"
+    date: "2022"
+    description: "7-week course on early-stage startup development covering MVP design, user acquisition, funding, and growth strategy"
+    highlights:
+      - Startups
+      - Product Development
+      - Growth Strategy
+
+  - institution: "Lviv College of Information and Computer Technologies"
+    degree: "Associate's Degree"
+    field: "Information Systems and Software Applications"
+    location: "Lviv, Ukraine"
+    start_date: "Sep 2017"
+    end_date: "Jul 2020"
+    grade: "Grade: A"
+    description: "Diploma in information systems, software development, and digital technologies"
+    coursework:
+      - "Web Development"
+      - "Programming"
+      - "Network Systems"
+      - "Software Design"
+      - "Data Analysis"
+
+# Skills - just list them, AI will reorder based on job requirements
 skills:
-  product:
-    - "Product Management"
-    - "Product Strategy"
-    - "0→1 Product Development"
-    - "Product-Led Growth"
-    - "User Research & Testing"
-    - "A/B Testing & Experimentation"
-    - "Data-Driven Decision Making"
-    - "Roadmap Prioritization"
+  # Product & Management
+  - "Product Management"
+  - "Product Strategy"
+  - "0→1 Product Development"
+  - "Product-Led Growth"
+  - "User Research & Testing"
+  - "A/B Testing & Experimentation"
+  - "Data-Driven Decision Making"
+  - "Roadmap Prioritization"
+  - "Cross-functional Leadership"
+  - "Strategic Thinking"
   
-  growth:
-    - "Growth Strategy"
-    - "Organic Growth (SEO)"
-    - "Growth Marketing"
-    - "Conversion Optimization"
-    - "Marketing Analytics"
-    - "Customer Acquisition"
-    - "Retention & Engagement"
+  # Growth & Marketing
+  - "Growth Strategy"
+  - "Organic Growth (SEO)"
+  - "Growth Marketing"
+  - "Conversion Optimization"
+  - "Marketing Analytics"
+  - "Customer Acquisition"
+  - "Retention & Engagement"
+  - "Content Strategy"
+  - "B2C Marketing"
   
-  technical:
-    - "SQL & Data Analysis"
-    - "Python (Basic)"
-    - "Web Development (HTML/CSS/JavaScript)"
-    - "APIs & Integrations"
-    - "Google Analytics & Tag Manager"
-    - "Technical SEO"
+  # Technical
+  - "SQL & Data Analysis"
+  - "Python (Basic)"
+  - "Web Development (HTML/CSS/JavaScript)"
+  - "APIs & Integrations"
+  - "Google Analytics & Tag Manager"
+  - "Technical SEO"
+  - "Full-Stack Development"
   
-  tools:
-    - "Figma"
-    - "Mixpanel / Amplitude"
-    - "Ahrefs / SEMrush"
-    - "Google Analytics"
-    - "Jira / Linear"
-    - "Git / GitHub"
+  # Tools
+  - "Figma"
+  - "Mixpanel / Amplitude"
+  - "Ahrefs / SEMrush"
+  - "Google Analytics"
+  - "Jira / Linear"
+  - "Git / GitHub"
 
-# Projects (optional) - add if relevant for specific roles
-projects: []
-  # - name: "Project Name"
-  #   description: "Brief description"
-  #   technologies: ["Tech1", "Tech2"]
-  #   link: "https://example.com"
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

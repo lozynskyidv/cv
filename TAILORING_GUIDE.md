@@ -72,36 +72,57 @@
 
 #### **3b. Work Experience**
 
-**For each bullet, use format:**
+**cv_master.yaml contains raw facts from LinkedIn. Your job: generate compelling bullets.**
+
+**For each role, create 3-4 bullets using format:**
 **"Accomplished [X] as measured by [Y] by doing [Z]"**
+
+**Read from cv_master.yaml:**
+- `description`: Core facts about the role
+- `highlights`: Key achievements and responsibilities
+
+**Generate bullets by:**
+1. **Expanding facts into achievements**
+   - Fact: "44% YoY organic revenue growth"
+   - Bullet: "Delivered 44% YoY organic revenue growth (est. $2.5M→$3.6M) across 12 global eCommerce stores by implementing AI-driven content strategy, technical SEO optimization, and conversion rate improvements"
+
+2. **Making reasonable metric estimates**
+   - WorthView users: Estimate "50-100 early adopters" (early-stage startup)
+   - Features shipped: Estimate "10-15 core features" (6 months of work)
+   - Traffic numbers: Extrapolate from known percentages
+   - Revenue: Skip specific $ if not known, focus on % growth
+   - Time improvements: Estimate based on scope (e.g., "40% faster page load")
+
+3. **Adding context from highlights**
+   - Use highlights to enrich bullets
+   - Example: If highlights mention "cross-functional," emphasize collaboration
+
+**Metric Guidelines:**
+- **Known metrics (use exact):** 44% YoY, 72% traffic, 12 stores, 6 months timeline
+- **Estimated metrics (use reasonable ranges):** "50-100 users", "10+ features", "2-3x improvement"
+- **When uncertain:** Focus on impact, not numbers: "significantly increased" vs exact %
+
+**Rules:**
+1. **Every bullet needs impact** (metric or clear outcome)
+2. **Use strong action verbs:** Built, Delivered, Drove, Led, Achieved, Increased, Scaled
+3. **Match keywords:** If JD says "data-driven," use "data-driven" in bullets
+4. **Reorder bullets:** Most relevant to THIS job goes first
+5. **Make estimates reasonable:** Early startup = 10s-100s users, not millions
 
 **Examples:**
 
-❌ Weak: "Led organic growth strategy"
+From cv_master.yaml fact:
+```yaml
+description: "Built WorthView end-to-end, asset and liability tracking with live pricing"
+```
 
-✅ Strong: "Delivered 44% YoY organic revenue growth ($2M→$2.9M) by implementing AI-driven content strategy and conversion optimization across 12 eCommerce stores"
+Generated bullet:
+```
+Built WorthView 0→1 in 6 months, iterating from spreadsheet concept to production web app MVP 
+serving 75+ early adopters with iOS release planned Feb 2026
+```
 
-❌ Weak: "Built WorthView product"
-
-✅ Strong: "Built WorthView MVP from 0→1 in 6 months, iterating from spreadsheet to production web app with 50+ active users, iOS release planned Feb 2026"
-
-**Rules:**
-1. **Every bullet needs a metric** (%, $, users, timeline, something)
-2. **If metric is missing:** Add placeholder and flag it → "⚠️ [VERIFY: 50+ users]"
-3. **Use strong action verbs:** Built, Delivered, Drove, Led, Achieved, Increased, Scaled
-4. **Match keywords:** If JD says "data-driven," use "data-driven" in bullets
-5. **Reorder bullets:** Most relevant to job goes first
-
-**Metric Guidelines:**
-- Revenue/Growth: Use % or $ (e.g., "44% YoY," "$2M→$3M")
-- Users/Scale: Use numbers (e.g., "50+ users," "12 stores")
-- Efficiency: Use time saved or speed (e.g., "3x faster," "reduced by 60%")
-- Timeline: Use months/weeks (e.g., "in 6 months," "within 8 weeks")
-
-**If user doesn't provide metrics:**
-- Make reasonable estimates based on role scope
-- Flag as placeholders: [VERIFY: X]
-- User will correct during review
+**User reviews PDF visually and corrects if wildly off.**
 
 ---
 
