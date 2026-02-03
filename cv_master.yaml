@@ -13,14 +13,13 @@ profile: |
   Founder who built WorthView from 0→1, iterating from spreadsheet to production web app MVP with iOS release planned for Feb 2026. Previously drove 44% YoY organic revenue growth across 12 eCommerce stores at PetSafe through AI-driven growth strategy. 4+ years combining product management, technical execution, and growth expertise across FinTech and eCommerce. Proven track record taking products from idea to measurable business impact.
 
 education:
-  # Add your education details here
-  institution: "Your University"
-  location: "City, Country"
-  degree: "Bachelor's Degree"
-  field: "Your Field of Study"
-  graduation_date: "Month Year"
-  gpa: ""  # Optional
-  coursework: []  # Optional list of relevant courses
+  institution: "Lviv College of Information and Computer Technologies"
+  location: "Lviv, Ukraine"
+  degree: "Associate's Degree"
+  field: "Information Systems and Software Applications"
+  graduation_date: "Jul 2020"
+  gpa: "Grade: A"
+  coursework: ["Web Development", "Programming", "Network Systems", "Software Design", "Data Analysis"]
 
 experience:
   - company: "WorthView"
