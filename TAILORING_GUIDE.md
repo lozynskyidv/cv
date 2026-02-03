@@ -36,51 +36,32 @@
 
 ### **STEP 2: Ask Strategic Questions (3-5 Only)**
 
-**Purpose:** After analyzing the job posting, ask 3-5 strategic questions to clarify:
-1. Which experience to emphasize (WorthView founder vs PetSafe growth vs Nestlé)
-2. Specific metrics/details user wants to highlight or verify
-3. Angle/positioning for this specific role
+**After analyzing the job posting, ask 3-5 strategic questions to clarify:**
+1. Which experience to emphasize for THIS specific role
+2. Specific metrics/details relevant to THIS job's requirements
+3. Angle/positioning that makes sense for THIS opportunity
 
 **Principles of GOOD Questions:**
-- ✅ **Strategic:** Help decide positioning/emphasis based on JD analysis
-- ✅ **Specific:** Reference actual requirements from this job posting
-- ✅ **Actionable:** Lead to concrete CV changes
-- ✅ **Metric-focused:** Ask about numbers/details if relevant to this role
-- ✅ **Role-adapted:** Different roles need different questions
+- ✅ Help decide positioning based on THIS job's actual requirements
+- ✅ Reference specific needs from THIS job posting
+- ✅ Ask about metrics/details relevant to THIS role
+- ✅ Lead to concrete, actionable CV changes
+- ✅ Adapt to whatever role type this is (PM, Growth, SEO, Marketing, etc.)
 
-**Examples (adapt to actual JD):**
+**How to craft questions:**
+1. Read what THIS job actually needs
+2. Identify which of user's experiences match best
+3. Ask clarifying questions about those experiences
+4. Get specifics that help tailor the CV effectively
 
-**For 0-to-1 PM roles:**
-- "This role emphasizes building new products from scratch - should we lead with WorthView technical build or founder journey narrative?"
-- "They want rapid prototyping experience - any specific features/iterations from WorthView MVP I should highlight?"
-- "Should we emphasize solo full-stack work or managing external resources?"
-
-**For Growth/Scale PM roles:**
-- "This role focuses on scaling existing products - should we lead with PetSafe 44% growth or WorthView traction?"
-- "They want experimentation experience - any A/B tests or experiments from PetSafe I should highlight?"
-- "Any additional metrics beyond 44% revenue growth? (CAC, LTV, conversion rates, channels)"
-
-**For Technical PM roles:**
-- "They emphasize APIs and technical specs - should we go deep on WorthView integrations (live pricing APIs, data architecture)?"
-- "This role requires SQL - any analytics/data projects from PetSafe or WorthView to highlight?"
-- "Should we angle you as 'builder who codes' or 'technical product strategist'?"
-
-**For Platform/Infra PM roles:**
-- "They need systems thinking - should we emphasize WorthView architecture or PetSafe scaling 12 stores?"
-- "Any infrastructure decisions or technical debt work I should highlight?"
-
-**For Domain-Specific roles (FinTech, eCommerce, etc.):**
-- "Should we emphasize WorthView FinTech domain expertise or translate PetSafe eCommerce to their space?"
-- "Any specific domain knowledge or regulatory understanding to highlight?"
-
-**❌ BAD Questions (Don't Ask These):**
+**❌ BAD Questions (avoid):**
 - "What are the keywords?" → I figure this out from JD
-- "What should I change?" → Too vague
-- "Tell me about the role" → I analyze JD myself
-- "What's your experience with X?" → Generic, wastes time
+- "What should I change?" → Too vague, not actionable
+- "Tell me about the role" → I analyze the JD myself
+- Generic questions not tied to this specific job's needs
 - Questions I can answer by reading cv_master.yaml
 
-**Goal:** Ask 3-5 smart, role-specific questions. Get user input on positioning/angle, then I do the tailoring work.
+**Goal:** 3-5 smart questions that help tailor CV for THIS specific job.
 
 ---
 
