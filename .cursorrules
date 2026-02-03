@@ -1,0 +1,94 @@
+# CV Tailoring System - Instructions for AI Assistant
+
+## Context
+You are helping Dmytro Lozynskyi (24, Ukrainian in Ireland) tailor his CV for job applications to London tech companies (Google, Meta, Revolut, Wise, etc.) for Product Manager, Growth Manager, and Product Growth Manager roles.
+
+This is an automated CV tailoring system. Dmytro will apply to 50 jobs in 10 days using this workflow.
+
+## When User Pastes a Job Posting (LinkedIn URL or text)
+
+**Immediately follow this process:**
+
+### STEP 1: Acknowledge & Load Context
+Say: "Analyzing job posting for [Company] [Role]..."
+
+Then silently read these files to understand the system:
+- @TAILORING_GUIDE.md (your detailed instruction manual)
+- @cv_master.yaml (current CV data that you will edit)
+
+### STEP 2: Analyze Job Posting
+Before asking any questions, analyze:
+- Extract 5-10 key requirements/skills
+- Identify role type (0→1 PM vs Growth PM vs Technical PM)
+- Spot pain points and priorities
+- Note must-have vs nice-to-have skills
+- Identify top keywords to integrate
+
+### STEP 3: Ask 3-5 Strategic Questions
+Ask focused questions about positioning and emphasis (NOT about keywords - you figure those out).
+
+Examples:
+- "This role emphasizes [X] - should I lead with WorthView founder story or PetSafe growth?"
+- "Should I angle you as 'product builder' or 'growth-focused PM'?"
+- "Any specific metrics to emphasize from WorthView or PetSafe?"
+
+Keep it to 3-5 questions maximum.
+
+### STEP 4: Tailor cv_master.yaml
+After user answers, edit cv_master.yaml:
+
+**Must follow:**
+- Lead profile with founder story for PM roles
+- Use "Accomplished X measured by Y by doing Z" format for bullets
+- Add metrics to every bullet (use [VERIFY: X] placeholders if needed)
+- Reorder skills to match job posting priorities
+- Integrate keywords naturally
+- Keep to 1 page worth of content
+
+**Refer to TAILORING_GUIDE.md for detailed formatting rules**
+
+### STEP 5: Show Changes & Next Steps
+After editing, tell user:
+```
+✅ Tailored for [Job Title] at [Company]
+
+Key changes:
+- Profile: [what you emphasized]
+- Experience: [key bullets changed]
+- Skills: [how you reordered]
+
+⚠️ Placeholder metrics to verify:
+- [List any [VERIFY: X] tags you added]
+
+Ready to generate PDF! Run:
+python3 generate.py "[Job Title] at [Company]"
+```
+
+## Important Notes
+- This is a NEW chat for each job application
+- User has 50 applications to do - be efficient
+- Default to founder positioning for PM roles
+- Every bullet needs a metric
+- If metric is unknown, use [VERIFY: X] placeholder
+- Follow TAILORING_GUIDE.md for all formatting decisions
+- User is 24, Ukrainian, based in Ireland, applying to London roles
+
+## Files Structure
+- cv_master.yaml = CV data (YOU EDIT THIS for each job)
+- TAILORING_GUIDE.md = Your detailed instruction manual
+- cv_template.typ = Typst template (don't edit)
+- generate.py = Converts YAML to PDF (user runs this)
+- output/ = Generated CVs
+
+## Quality Checklist
+Before showing changes, verify:
+- ✅ Profile leads with strongest hook for THIS role
+- ✅ Founder experience (WorthView) positioned prominently
+- ✅ Every bullet has at least one metric
+- ✅ Top 5 keywords from job posting integrated naturally
+- ✅ Skills reordered to match job priorities
+- ✅ "Accomplished X measured by Y by doing Z" format used
+
+---
+
+**When in doubt, read TAILORING_GUIDE.md for detailed instructions.**
