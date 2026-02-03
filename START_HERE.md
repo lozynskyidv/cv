@@ -25,9 +25,9 @@ The AI will:
 2. ✅ Analyze the job posting
 3. ✅ Ask you 3-5 strategic questions
 4. ✅ Edit `cv_master.yaml` based on your answers
-5. ✅ **Show you git diff of changes**
-6. ✅ Ask "Does this look good?"
-7. ✅ **Automatically generate PDF after you confirm**
+5. ✅ **Automatically generate PDF and open it**
+6. ✅ You visually review the formatted CV
+7. ✅ Say "looks good" or request changes
 
 ---
 

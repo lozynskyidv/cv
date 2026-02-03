@@ -47,14 +47,10 @@ After user answers, edit cv_master.yaml:
 
 **Refer to TAILORING_GUIDE.md for detailed formatting rules**
 
-### STEP 5: Show Changes & Ask for Confirmation
-After editing cv_master.yaml, show user what changed:
+### STEP 5: Generate PDF and Show Preview
+After editing cv_master.yaml, immediately generate PDF and open it for user to review:
 
-1. **Run git diff** to show exactly what was modified:
-   - Use Shell tool to run: `cd /Users/dmytrolozynskyi/Documents/cv && git diff cv_master.yaml`
-   - Show the diff output so user sees changes
-
-2. **Summarize key changes:**
+1. **Summarize what you changed:**
 ```
 ✅ Tailored for [Job Title] at [Company]
 
@@ -65,32 +61,34 @@ Key changes:
 
 ⚠️ Placeholder metrics to verify:
 - [List any [VERIFY: X] tags you added]
+
+📄 Generating PDF preview...
 ```
 
-3. **Ask for confirmation:**
-   "Does this look good? Reply 'yes' to generate PDF, or tell me what to adjust."
-
-### STEP 6: Generate PDF Automatically
-After user confirms (says "yes", "looks good", "generate", etc.):
-
-1. **Run generate.py via Shell tool:**
+2. **Generate PDF via Shell tool:**
    ```bash
    cd /Users/dmytrolozynskyi/Documents/cv && python3 generate.py "[Job Title] at [Company]"
    ```
 
-2. **Show success message:**
+3. **Open PDF automatically via Shell tool:**
+   ```bash
+   open /Users/dmytrolozynskyi/Documents/cv/output/Dmytro_Lozynskyi_[sanitized_filename].pdf
+   ```
+   This will open the PDF in Preview (macOS) so user can visually see the formatted CV.
+
+4. **Ask for confirmation:**
 ```
-🎉 PDF generated successfully!
+📄 PDF preview opened! Please review the formatted CV.
 
-📄 Your tailored CV:
-   output/Dmytro_Lozynskyi_[Job_Title]_[Company].pdf
-
-✅ Ready to apply!
-
-💡 Tip: Check output folder for your PDF
+Does this look good? 
+- Say "yes" or "looks good" if ready to apply
+- Tell me what to adjust if you want changes
 ```
 
-3. **Optional:** Ask if user wants to commit changes to git
+### STEP 6: Handle User Response
+- If user approves: Confirm PDF is ready to apply
+- If user requests changes: Re-edit cv_master.yaml, regenerate PDF, and open again
+- Iterate until user is satisfied
 
 ## Important Notes
 - This is a NEW chat for each job application
@@ -100,8 +98,10 @@ After user confirms (says "yes", "looks good", "generate", etc.):
 - If metric is unknown, use [VERIFY: X] placeholder
 - Follow TAILORING_GUIDE.md for all formatting decisions
 - User is 24, Ukrainian, based in Ireland, applying to London roles
-- **USE SHELL TOOL** to show git diff and generate PDF automatically
-- After user confirms changes, immediately generate PDF via Shell tool
+- **CRITICAL:** After editing YAML, immediately generate PDF AND open it via `open` command
+- User needs to SEE the formatted CV visually, not just YAML diff
+- If user requests changes, re-edit YAML and regenerate/open PDF again
+- Iterate until user approves the visual preview
 
 ## Files Structure
 - cv_master.yaml = CV data (YOU EDIT THIS for each job)

@@ -32,22 +32,24 @@ AI asks 3-5 strategic questions like:
 
 Answer concisely.
 
-### **Step 5: Review Changes** (10 sec)
-AI shows:
-- Git diff of exactly what changed in cv_master.yaml
-- Placeholder metrics to verify [VERIFY: X]
+### **Step 5: AI Generates & Opens PDF Preview** (5 sec)
+AI automatically:
+- Generates PDF from tailored cv_master.yaml
+- Opens PDF in Preview app
+- Shows summary of what changed
 
-Say "looks good" or request tweaks.
+### **Step 6: Visual Review** (15 sec)
+You review the actual formatted CV:
+- Check how it looks visually
+- Verify formatting, spacing, bullets
+- Check for [VERIFY: X] placeholders
 
-### **Step 6: Confirm & Generate** (5 sec)
-Say: "yes" or "looks good" or "generate"
+### **Step 7: Confirm or Adjust** (5 sec)
+Say:
+- "looks good" ✅ → Done, ready to apply
+- "change X" 🔄 → AI re-edits and regenerates
 
-AI automatically generates PDF and shows:
-```
-📄 output/Dmytro_Lozynskyi_Product_Manager_at_Google.pdf
-```
-
-### **Step 7: Apply** 
+### **Step 8: Apply** 
 Upload PDF to LinkedIn/company website.
 
 ---
