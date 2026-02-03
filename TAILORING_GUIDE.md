@@ -115,6 +115,82 @@
 
 ---
 
+## 📏 **CRITICAL: Content Length Guidelines**
+
+**Follow these hard limits to ensure CVs are scannable and professional:**
+
+### **Profile Length:**
+- **Target:** 250-350 characters (approximately 2-3 lines when rendered)
+- **Maximum:** 400 characters
+- **If over limit:** Remove implied/redundant phrases
+  - ❌ "with hands-on technical execution" (implied by "built")
+  - ❌ "with engineering, design, and business stakeholders" (implied by "cross-functional")
+  - ❌ "through full-stack development" (details belong in bullets)
+
+**How to tighten:**
+1. Remove words that don't add new information
+2. Combine related points (e.g., "0-to-1 development and growth at scale" not separate sentences)
+3. Focus on: 1 differentiator + 1 proof point + 1 relevance to THIS role
+
+---
+
+### **Bullet Point Length:**
+- **Target:** 120-180 characters (approximately 1-2 lines)
+- **Maximum:** 200 characters
+- **If over 200 characters:** Split into 2 bullets
+
+**How to split long bullets:**
+1. Separate action from outcome
+2. Separate different actions  
+3. Separate technical details from business impact
+
+**Example:**
+```
+❌ TOO LONG (250 characters):
+"Led end-to-end product strategy including user research, technical execution (React Native 
+development), data-driven feature prioritization, and go-to-market planning for iOS launch (Feb 2026)"
+
+✅ SPLIT INTO 2:
+"Led end-to-end product strategy from user research to go-to-market planning for iOS launch (Feb 2026)"
+"Drove data-driven feature prioritization through React Native development and technical execution"
+```
+
+**Signs a bullet is too long:**
+- Contains 3+ distinct actions
+- Uses "and" more than 2 times
+- Mixes technical AND business AND cross-functional details
+
+---
+
+### **Skills Section Length:**
+- **Maximum:** 5-6 skills per category
+- **Maximum:** 4 categories total
+- **If category has 8+ skills:** Remove least relevant to THIS job
+
+**Prioritization order:**
+1. Skills mentioned in job posting (if you have them)
+2. Core skills for this role type (PM: product strategy, roadmaps)
+3. Supporting skills that differentiate you
+
+**What to cut:**
+- Skills implied by others (e.g., "Stakeholder Management" if you have "Cross-functional Leadership")
+- Skills already mentioned in profile
+- Generic skills less relevant to THIS role
+
+**Example:**
+```
+❌ TOO MANY (8 skills):
+Product Management: Product Strategy & Roadmaps, 0-to-1 Product Development, 
+Cross-functional Leadership, Stakeholder Management, Data-Driven Decision Making, 
+A/B Testing & Experimentation, Technical Presentations, User Research & Testing
+
+✅ GOOD (5-6 skills):
+Product Management: Product Strategy & Roadmaps, 0-to-1 Product Development, 
+Cross-functional Leadership, Data-Driven Decision Making, A/B Testing & Experimentation
+```
+
+---
+
 ### **STEP 3: Tailor CV in Job-Specific YAML**
 
 **CRITICAL:** 
@@ -194,6 +270,7 @@ education:
 - Sentence 2: Breadth of experience relevant to THIS job (FinTech + eCommerce)
 - Sentence 3: Skill combo that matches THEIR need (not generic)
 
+**Length:** 250-350 characters (see Content Length Guidelines above)
 **Keep it:** 2-3 sentences max, dense with keywords from THIS job posting.
 
 **Example - Tailoring for Different Roles:**
@@ -229,6 +306,7 @@ profile: |
 2. **Rewrite for relevance:** Adjust language to match job domain
 3. **Emphasize keywords:** Use exact phrases from job posting
 4. **Follow professional style:** No arrows, no "est.", consistent formatting
+5. **Keep bullets concise:** Max 200 characters per bullet (see Content Length Guidelines above)
 
 **Example - Original (Master):**
 ```yaml
@@ -294,9 +372,11 @@ skills:
 
 **Tailoring:**
 1. Put most relevant category first
-2. Within each category, reorder skills by relevance
-3. You can rename categories to match job language
-4. Remove skills not relevant to THIS role
+2. Within each category, reorder skills by relevance (most important first)
+3. **Limit to 5-6 skills per category** (see Content Length Guidelines above)
+4. You can rename categories to match job language
+5. Remove skills not relevant to THIS role
+6. Maximum 4 categories total (remove least relevant category if needed)
 
 ---
 
