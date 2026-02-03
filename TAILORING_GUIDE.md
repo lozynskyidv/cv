@@ -81,8 +81,9 @@
 **Professional Language:**
 - ❌ NO boxing into old titles: "Promoted from SEO Specialist to Lead"
 - ✅ YES: "Promoted to Lead role within 18 months to own cross-functional growth strategy"
-- ❌ NO tech Twitter jargon unless explicitly in job posting
-- ✅ YES: Professional, clear business language
+- ❌ NO empty buzzwords: "synergize", "leverage" (when you mean "use"), "drive excellence", "thought leader", "best-in-class"
+- ✅ YES: Keep meaningful industry keywords: "data-driven", "cross-functional", "0-to-1", "product-led growth", "A/B testing", "stakeholder management"
+- ✅ Balance: Use terms recruiters search for, avoid vague corporate speak
 
 **Education Formatting:**
 - Single line format, not nested bullets
@@ -181,11 +182,12 @@ education:
 **DO NOT copy cv_master.yaml profile verbatim!** Tailor it to THIS specific role.
 
 **Match to role type:**
-- **0-to-1 roles:** Lead with "Founder who built WorthView from conception to production..." 
+- **0-to-1 roles:** Lead with "Founder of WorthView" or "Built WorthView as founder from conception to production..." 
 - **Growth roles:** Lead with "Product-driven growth leader who delivered 44% YoY growth..."
 - **Technical roles:** Lead with "Product builder with hands-on technical execution..."
 - **Data/Analytics roles:** Lead with "Data-driven product leader with SQL/analytics expertise..."
 - **Domain-specific roles:** Lead with relevant domain (FinTech, eCommerce, etc.)
+- Note: "Founder of X" is cleaner than "Founder who built X"
 
 **Formula:**
 - Sentence 1: Your unique positioning for THIS role (founder + relevant achievement)
@@ -199,19 +201,19 @@ education:
 **For 0-to-1 PM:**
 ```yaml
 profile: |
-  Founder who built WorthView FinTech product from conception to production in 6 months...
+  Founder of WorthView FinTech product, taking it from conception to production in 6 months with hands-on technical execution...
 ```
 
 **For Growth PM:**
 ```yaml
 profile: |
-  Product-driven growth leader who delivered 44% YoY growth at PetSafe Brands...
+  Product-driven growth leader who delivered 44% YoY growth at PetSafe Brands across 12 global eCommerce stores...
 ```
 
 **For Technical PM:**
 ```yaml
 profile: |
-  Product builder with hands-on technical execution, having built full-stack FinTech product...
+  Product builder with hands-on technical execution, having built full-stack FinTech product with live pricing APIs...
 ```
 
 ---

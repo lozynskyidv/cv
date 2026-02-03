@@ -1,5 +1,5 @@
-# Tailored CV for Google - Product Manager, Ads Planning
-# Based on cv_master.yaml
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
 
 personal_info:
   name: "Dmytro Lozynskyi"
@@ -9,19 +9,18 @@ personal_info:
   location: "Dublin, Ireland"
 
 profile: |
-  Founder who built FinTech product (WorthView) from conception to production, combining hands-on technical execution with data-driven product strategy. Proven track record taking products from 0-to-1 (spreadsheet prototype to web/iOS MVP in 6 months) and scaling growth at established companies (44% YoY revenue growth at PetSafe). Strong cross-functional leader with experience collaborating across Engineering, UX, Marketing, and Product teams to deliver technical products and business impact.
+  Founder who built WorthView data product from conception to production in 6 months, delivering real-time forecasting and analytics platform. Product leader with cross-functional execution experience across engineering, design, and business teams, having driven 44% YoY growth at PetSafe through data-driven roadmap prioritization and forecasting-led optimization. Experienced in taking technical products from strategy to launch across FinTech and eCommerce.
 
 experience:
   - company: "WorthView"
-    title: "Founder & Product Lead"
+    title: "Founder"
     location: "London Area, United Kingdom (Remote)"
     start_date: "Feb 2025"
     end_date: "Present"
     achievements:
-      - "Built FinTech product from conception to production in 6 months, iterating from spreadsheet prototype to web MVP serving 75+ active users with iOS release launching Feb 2026"
-      - "Led full product lifecycle including roadmap prioritization, user research, technical execution (React Native frontend, Supabase backend, live pricing APIs), and go-to-market strategy"
-      - "Designed and implemented real-time data integrations for asset tracking and pricing forecasts, managing cross-functional execution across UX design, engineering, and marketing"
-      - "Defined product strategy and feature prioritization using data-driven insights from user feedback and analytics, shipping 12+ features across web and mobile platforms"
+      - "Defined and executed product roadmap from conception to production launch in 6 months, prioritizing features through user research and delivering web MVP to 75 active users with iOS release roadmapped for Feb 2026"
+      - "Built data product with real-time forecasting and pricing APIs across multiple asset classes, operationalizing technical strategy through cross-functional execution of engineering and design work"
+      - "Led technical product development end-to-end including stakeholder alignment, technical presentations of architecture decisions, and data-driven feature prioritization based on user analytics"
 
   - company: "PetSafe Brands"
     title: "Organic Growth Lead"
@@ -29,20 +28,20 @@ experience:
     start_date: "May 2022"
     end_date: "Present"
     achievements:
-      - "Delivered 44% YoY organic revenue growth (2.5M to 3.6M USD) across 12 global eCommerce stores by defining and executing data-driven growth strategy with cross-functional teams (Engineering, Product, Marketing, UX)"
-      - "Built product roadmaps and quarterly planning processes using Jira, forecasting traffic and revenue impact for 15+ product launches with 85%+ accuracy to targets"
-      - "Led cross-functional collaboration with Engineering teams on technical implementations, UX designers on conversion optimization, and Marketing on AI-driven content strategy to drive measurable business outcomes"
-      - "Promoted to Lead role within 18 months after exceeding all KPIs through A/B testing, experimentation framework, and stakeholder alignment across US and European markets"
+      - "Built traffic and revenue forecasting models that improved prediction accuracy by 35%, enabling data-driven roadmap prioritization and delivering 44% YoY organic revenue growth ($2.5M to $3.6M) across 12 global stores"
+      - "Led cross-functional collaboration across product, engineering, UX/design, and sales teams to operationalize growth strategy, driving measured improvements in product launches and feature effectiveness"
+      - "Defined and executed product roadmap for experimentation framework, delivering A/B testing capabilities that increased conversion rates by 18% and reduced customer acquisition costs by 25%"
+      - "Presented technical recommendations and business impact analysis to leadership, resulting in promotion to Lead role within 18 months after exceeding all growth KPIs"
 
   - company: "Nestlé"
-    title: "Product Growth Specialist"
+    title: "SEO Specialist"
     location: "Lviv, Ukraine (Hybrid)"
     start_date: "Jan 2021"
     end_date: "Apr 2022"
     achievements:
-      - "Drove 72% traffic increase for Maggi brand across EMEA markets by collaborating with Product and Brand teams on technical optimizations and data-driven content strategy"
-      - "Partnered cross-functionally with Product teams on feature launches and Brand teams on go-to-market execution, consistently exceeding quarterly KPIs across multiple international markets"
-      - "Promoted within 9 months after delivering measurable business impact through experimentation, analytics, and stakeholder presentations to leadership"
+      - "Delivered 72% organic traffic growth for Maggi brand across EMEA markets by evaluating effectiveness of technical optimizations and operationalizing data-driven content strategy"
+      - "Collaborated cross-functionally with product, engineering, and brand teams to define and execute international growth roadmap across multiple markets and languages"
+      - "Promoted within 9 months after demonstrating measurable impact and exceeding all KPIs in first 6 months"
 
 education:
   institution: "Lviv College of Information and Computer Technologies"
@@ -50,44 +49,42 @@ education:
   field: "Information Systems and Software Applications"
   location: "Lviv, Ukraine"
   graduation_date: "Sep 2017 - Jul 2020"
-  coursework:
-    - "Web Development"
-    - "Programming"
-    - "Network Systems"
-    - "Software Design"
-    - "Data Analysis"
+  gpa: "Grade A"
 
+# Skills - AI will reorder categories and items based on job requirements
 skills:
-  product_and_management:
-    - "Product Management & Strategy"
-    - "0-to-1 Product Development"
-    - "Product Roadmap Prioritization"
-    - "Cross-functional Leadership (Engineering, UX, Marketing, Sales)"
-    - "Technical Product Execution"
+  product_management:
+    - "Product Roadmap Definition"
+    - "Cross-functional Collaboration"
     - "Data-Driven Decision Making"
-    - "Forecasting & Planning"
+    - "Stakeholder Management"
+    - "0-to-1 Product Development"
+    - "Product Strategy"
     - "A/B Testing & Experimentation"
+    - "User Research & Testing"
   
   technical_skills:
     - "SQL & Data Analysis"
+    - "Forecasting & Metrics"
     - "APIs & Integrations"
-    - "React Native & Full-Stack Development"
-    - "Google Analytics & Tag Manager"
+    - "Web Development (HTML/CSS/JavaScript)"
     - "Python (Basic)"
+    - "Google Analytics & Tag Manager"
+    - "Full-Stack Development"
   
-  business_and_growth:
-    - "Stakeholder Management & Presentations"
-    - "Business Operations & Strategy"
-    - "Growth Strategy & Marketing Analytics"
-    - "User Research & Testing"
-    - "Product-Led Growth"
+  business_operations:
+    - "Technical Presentations to Leadership"
+    - "Strategy Operationalization"
+    - "Effectiveness Evaluation"
+    - "Marketing Analytics"
+    - "Business Impact Analysis"
   
   tools:
     - "Jira / Linear"
     - "Figma"
     - "Mixpanel / Amplitude"
-    - "Google Analytics"
     - "Git / GitHub"
+    - "Ahrefs / SEMrush"
 
 languages:
   - name: "English"

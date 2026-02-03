@@ -9,12 +9,12 @@ personal_info:
   location: "Dublin, Ireland"
 
 profile: |
-  Founder who built WorthView FinTech product from conception to production in 6 months, combining hands-on technical execution with product strategy. Delivered 44% YoY growth at PetSafe Brands across 12 global eCommerce stores. Product leader with experience in 0-to-1 development, growth at scale, and cross-functional leadership across FinTech and eCommerce.
+  Founder of WorthView FinTech product, taking it from conception to production in 6 months with hands-on technical execution. Delivered 44% YoY growth at PetSafe Brands across 12 global eCommerce stores. Product leader with experience in 0-to-1 development, growth at scale, and cross-functional leadership across FinTech and eCommerce.
 
 experience:
   - company: "WorthView"
     title: "Founder"
-    location: "London Area, United Kingdom (Remote)"
+    location: "Dublin, Ireland"
     start_date: "Feb 2025"
     end_date: "Present"
     achievements:
@@ -24,7 +24,7 @@ experience:
 
   - company: "PetSafe Brands"
     title: "Organic Growth Lead"
-    location: "Dublin, Ireland (Hybrid)"
+    location: "Dublin, Ireland"
     start_date: "May 2022"
     end_date: "Present"
     achievements:
@@ -35,7 +35,7 @@ experience:
 
   - company: "Nestlé"
     title: "SEO Specialist"
-    location: "Lviv, Ukraine (Hybrid)"
+    location: "Lviv, Ukraine"
     start_date: "Jan 2021"
     end_date: "Apr 2022"
     achievements:
@@ -49,7 +49,6 @@ education:
   field: "Information Systems and Software Applications"
   location: "Lviv, Ukraine"
   graduation_date: "Sep 2017 - Jul 2020"
-  gpa: "Grade A"
 
 # Skills - AI will reorder categories and items based on job requirements
 skills:
