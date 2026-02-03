@@ -5,7 +5,7 @@ Usage: python generate.py "Job Title at Company" [yaml_file]
 Examples:
   python generate.py "Product Manager at Google"
   python generate.py "Product Manager at Google" cv_product_manager_google.yaml
-Output: output/Dmytro_Lozynskyi_Job_Title_Company.pdf
+Output: output/Dmytro_Lozynskyi_Company.pdf
 """
 
 import sys
@@ -28,6 +28,21 @@ def sanitize_filename(text):
     text = re.sub(r'[^\w\s-]', '', text)
     text = re.sub(r'[\s]+', '_', text)
     return text
+
+
+def extract_company_name(job_title):
+    """Extract company name from 'Job Title at Company' format"""
+    # Try to extract company after "at"
+    match = re.search(r'\bat\s+(.+?)$', job_title, re.IGNORECASE)
+    if match:
+        company = match.group(1).strip()
+        # Clean up company name
+        company = re.sub(r'[^\w\s-]', '', company)
+        company = re.sub(r'[\s]+', '_', company)
+        return company
+    
+    # Fallback: use full sanitized title if no "at" found
+    return sanitize_filename(job_title)
 
 
 def format_experience(experience_list):
@@ -164,9 +179,9 @@ def main():
     output_dir.mkdir(exist_ok=True)
     
     # Generate filenames
-    safe_title = sanitize_filename(job_title)
-    timestamp = datetime.now().strftime("%Y%m%d")
-    pdf_filename = f"Dmytro_Lozynskyi_{safe_title}.pdf"
+    safe_title = sanitize_filename(job_title)  # Keep for .typ file (internal use)
+    company_name = extract_company_name(job_title)  # Extract company for PDF name
+    pdf_filename = f"Dmytro_Lozynskyi_{company_name}.pdf"
     pdf_path = output_dir / pdf_filename
     
     # Load CV data
