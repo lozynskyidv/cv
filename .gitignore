@@ -1,9 +1,12 @@
 # Job-specific tailored YAML files (optional - uncomment if you don't want to track)
-# cv_*.yaml
+# yaml/cv_*.yaml
 # !cv_master.yaml  # Keep master tracked
 
 # Typst intermediate files (for debugging only)
-output/*.typ
+typ_files/
+
+# Generated PDFs (optional - uncomment if you don't want to track resumes)
+# resumes/*.pdf
 
 # Python
 __pycache__/
@@ -13,9 +16,6 @@ __pycache__/
 # macOS
 .DS_Store
 
-# Keep the output directory structure
-!output/.gitkeep
-
 # Note: cv_master.yaml is tracked (source of truth)
-# Note: output/*.pdf are tracked (portfolio)
-# Note: cv_[job].yaml are tracked by default (tailoring history)
+# Note: yaml/cv_[job].yaml are tracked by default (tailoring history)
+# Note: resumes/*.pdf can be tracked or ignored based on preference

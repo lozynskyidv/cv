@@ -120,8 +120,11 @@ def generate_typst_file(cv_data, output_path="cv_generated.typ"):
     template = template.replace("{{linkedin}}", personal['linkedin'])
     template = template.replace("{{phone}}", personal['phone'])
     
-    # Replace profile
-    template = template.replace("{{profile}}", cv_data['profile'].strip())
+    # Replace profile (escape Typst special characters)
+    profile_text = cv_data['profile'].strip()
+    profile_text = profile_text.replace('\\', '\\\\')  # Escape backslashes first
+    profile_text = profile_text.replace('$', '\\$')  # Escape dollar signs
+    template = template.replace("{{profile}}", profile_text)
     
     # Replace experience
     experience_formatted = format_experience(cv_data['experience'])
@@ -174,9 +177,11 @@ def main():
     # Optional: specify YAML file (defaults to cv_master.yaml)
     yaml_file = sys.argv[2] if len(sys.argv) > 2 else "cv_master.yaml"
     
-    # Create resumes directory
+    # Create directories
     output_dir = Path("resumes")
     output_dir.mkdir(exist_ok=True)
+    typ_dir = Path("typ_files")
+    typ_dir.mkdir(exist_ok=True)
     
     # Generate filenames
     safe_title = sanitize_filename(job_title)  # Keep for .typ file (internal use)
@@ -188,9 +193,9 @@ def main():
     print(f"📄 Loading CV data from {yaml_file}...")
     cv_data = load_cv_data(yaml_file)
     
-    # Generate Typst file
+    # Generate Typst file (in typ_files directory)
     print(f"✏️  Generating Typst file...")
-    typst_file = output_dir / f"cv_{safe_title}.typ"
+    typst_file = typ_dir / f"cv_{safe_title}.typ"
     generate_typst_file(cv_data, typst_file)
     
     # Compile to PDF
