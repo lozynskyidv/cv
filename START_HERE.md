@@ -25,8 +25,9 @@ The AI will:
 2. ✅ Analyze the job posting
 3. ✅ Ask you 3-5 strategic questions
 4. ✅ Edit `cv_master.yaml` based on your answers
-5. ✅ Show you what changed
-6. ✅ Tell you to run: `python3 generate.py "Job Title at Company"`
+5. ✅ **Show you git diff of changes**
+6. ✅ Ask "Does this look good?"
+7. ✅ **Automatically generate PDF after you confirm**
 
 ---
 

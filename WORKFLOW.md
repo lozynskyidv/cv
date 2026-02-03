@@ -34,17 +34,18 @@ Answer concisely.
 
 ### **Step 5: Review Changes** (10 sec)
 AI shows:
-- What changed in cv_master.yaml
+- Git diff of exactly what changed in cv_master.yaml
 - Placeholder metrics to verify [VERIFY: X]
 
-Approve or request tweaks.
+Say "looks good" or request tweaks.
 
-### **Step 6: Generate PDF** (5 sec)
-```bash
-python3 generate.py "Product Manager at Google"
+### **Step 6: Confirm & Generate** (5 sec)
+Say: "yes" or "looks good" or "generate"
+
+AI automatically generates PDF and shows:
 ```
-
-PDF appears in: `output/Dmytro_Lozynskyi_Product_Manager_at_Google.pdf`
+📄 output/Dmytro_Lozynskyi_Product_Manager_at_Google.pdf
+```
 
 ### **Step 7: Apply** 
 Upload PDF to LinkedIn/company website.

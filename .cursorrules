@@ -47,22 +47,50 @@ After user answers, edit cv_master.yaml:
 
 **Refer to TAILORING_GUIDE.md for detailed formatting rules**
 
-### STEP 5: Show Changes & Next Steps
-After editing, tell user:
+### STEP 5: Show Changes & Ask for Confirmation
+After editing cv_master.yaml, show user what changed:
+
+1. **Run git diff** to show exactly what was modified:
+   - Use Shell tool to run: `cd /Users/dmytrolozynskyi/Documents/cv && git diff cv_master.yaml`
+   - Show the diff output so user sees changes
+
+2. **Summarize key changes:**
 ```
 ✅ Tailored for [Job Title] at [Company]
 
 Key changes:
 - Profile: [what you emphasized]
-- Experience: [key bullets changed]
+- Experience: [key bullets changed]  
 - Skills: [how you reordered]
 
 ⚠️ Placeholder metrics to verify:
 - [List any [VERIFY: X] tags you added]
-
-Ready to generate PDF! Run:
-python3 generate.py "[Job Title] at [Company]"
 ```
+
+3. **Ask for confirmation:**
+   "Does this look good? Reply 'yes' to generate PDF, or tell me what to adjust."
+
+### STEP 6: Generate PDF Automatically
+After user confirms (says "yes", "looks good", "generate", etc.):
+
+1. **Run generate.py via Shell tool:**
+   ```bash
+   cd /Users/dmytrolozynskyi/Documents/cv && python3 generate.py "[Job Title] at [Company]"
+   ```
+
+2. **Show success message:**
+```
+🎉 PDF generated successfully!
+
+📄 Your tailored CV:
+   output/Dmytro_Lozynskyi_[Job_Title]_[Company].pdf
+
+✅ Ready to apply!
+
+💡 Tip: Check output folder for your PDF
+```
+
+3. **Optional:** Ask if user wants to commit changes to git
 
 ## Important Notes
 - This is a NEW chat for each job application
@@ -72,6 +100,8 @@ python3 generate.py "[Job Title] at [Company]"
 - If metric is unknown, use [VERIFY: X] placeholder
 - Follow TAILORING_GUIDE.md for all formatting decisions
 - User is 24, Ukrainian, based in Ireland, applying to London roles
+- **USE SHELL TOOL** to show git diff and generate PDF automatically
+- After user confirms changes, immediately generate PDF via Shell tool
 
 ## Files Structure
 - cv_master.yaml = CV data (YOU EDIT THIS for each job)
