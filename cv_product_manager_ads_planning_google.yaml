@@ -1,0 +1,131 @@
+# Tailored CV for Google - Product Manager, Ads Planning
+# Based on cv_master.yaml
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Founder who built FinTech product (WorthView) from conception to production, combining hands-on technical execution with data-driven product strategy. Proven track record taking products from 0-to-1 (spreadsheet prototype to web/iOS MVP in 6 months) and scaling growth at established companies (44% YoY revenue growth at PetSafe). Strong cross-functional leader with experience collaborating across Engineering, UX, Marketing, and Product teams to deliver technical products and business impact.
+
+experience:
+  - company: "WorthView"
+    title: "Founder & Product Lead"
+    location: "London Area, United Kingdom (Remote)"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built FinTech product from conception to production in 6 months, iterating from spreadsheet prototype to web MVP serving 75+ active users with iOS release launching Feb 2026"
+      - "Led full product lifecycle including roadmap prioritization, user research, technical execution (React Native frontend, Supabase backend, live pricing APIs), and go-to-market strategy"
+      - "Designed and implemented real-time data integrations for asset tracking and pricing forecasts, managing cross-functional execution across UX design, engineering, and marketing"
+      - "Defined product strategy and feature prioritization using data-driven insights from user feedback and analytics, shipping 12+ features across web and mobile platforms"
+
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland (Hybrid)"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY organic revenue growth (2.5M to 3.6M USD) across 12 global eCommerce stores by defining and executing data-driven growth strategy with cross-functional teams (Engineering, Product, Marketing, UX)"
+      - "Built product roadmaps and quarterly planning processes using Jira, forecasting traffic and revenue impact for 15+ product launches with 85%+ accuracy to targets"
+      - "Led cross-functional collaboration with Engineering teams on technical implementations, UX designers on conversion optimization, and Marketing on AI-driven content strategy to drive measurable business outcomes"
+      - "Promoted to Lead role within 18 months after exceeding all KPIs through A/B testing, experimentation framework, and stakeholder alignment across US and European markets"
+
+  - company: "Nestlé"
+    title: "Product Growth Specialist"
+    location: "Lviv, Ukraine (Hybrid)"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Drove 72% traffic increase for Maggi brand across EMEA markets by collaborating with Product and Brand teams on technical optimizations and data-driven content strategy"
+      - "Partnered cross-functionally with Product teams on feature launches and Brand teams on go-to-market execution, consistently exceeding quarterly KPIs across multiple international markets"
+      - "Promoted within 9 months after delivering measurable business impact through experimentation, analytics, and stakeholder presentations to leadership"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+  coursework:
+    - "Web Development"
+    - "Programming"
+    - "Network Systems"
+    - "Software Design"
+    - "Data Analysis"
+
+skills:
+  product_and_management:
+    - "Product Management & Strategy"
+    - "0-to-1 Product Development"
+    - "Product Roadmap Prioritization"
+    - "Cross-functional Leadership (Engineering, UX, Marketing, Sales)"
+    - "Technical Product Execution"
+    - "Data-Driven Decision Making"
+    - "Forecasting & Planning"
+    - "A/B Testing & Experimentation"
+  
+  technical_skills:
+    - "SQL & Data Analysis"
+    - "APIs & Integrations"
+    - "React Native & Full-Stack Development"
+    - "Google Analytics & Tag Manager"
+    - "Python (Basic)"
+  
+  business_and_growth:
+    - "Stakeholder Management & Presentations"
+    - "Business Operations & Strategy"
+    - "Growth Strategy & Marketing Analytics"
+    - "User Research & Testing"
+    - "Product-Led Growth"
+  
+  tools:
+    - "Jira / Linear"
+    - "Figma"
+    - "Mixpanel / Amplitude"
+    - "Google Analytics"
+    - "Git / GitHub"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

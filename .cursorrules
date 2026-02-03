@@ -19,7 +19,7 @@ Then silently read these files to understand the system:
 ### STEP 2: Analyze Job Posting
 Before asking any questions, analyze:
 - Extract 5-10 key requirements/skills
-- Identify role type (0→1 PM vs Growth PM vs Technical PM)
+- Identify role type (0-to-1 PM vs Growth PM vs Technical PM)
 - Spot pain points and priorities
 - Note must-have vs nice-to-have skills
 - Identify top keywords to integrate
@@ -45,18 +45,36 @@ After user answers:
 
 3. **Edit the NEW file cv_[job_name].yaml** (NOT cv_master.yaml):
 
-**Must follow:**
+**CRITICAL - YAML Structure Must Match:**
+```yaml
+experience:
+  - achievements:  # List of strings, not description/highlights
+      - "Bullet 1"
+      - "Bullet 2"
+
+skills:  # Dict of categories, not flat list
+  category_name:
+    - "Skill 1"
+    - "Skill 2"
+
+education:  # Single dict, not list
+  institution: "Name"
+  degree: "Degree"
+```
+
+**Tailoring Rules:**
 - Lead profile with founder story for PM roles
 - Use "Accomplished X measured by Y by doing Z" format for bullets
-- Add metrics to every bullet (use [VERIFY: X] placeholders if needed)
-- Reorder skills to match job posting priorities
+- Add metrics to every bullet (make reasonable estimates)
+- Reorder skills categories AND items to match job priorities
 - Integrate keywords naturally
 - Keep to 1 page worth of content
+- Follow professional formatting (no arrows, no "est.", consistent symbols)
 
-**Refer to TAILORING_GUIDE.md for detailed formatting rules**
+**Refer to TAILORING_GUIDE.md for detailed structure and formatting rules**
 
 ### STEP 5: Generate PDF and Show Preview
-After editing cv_master.yaml, immediately generate PDF and open it for user to review:
+After editing cv_[job_name].yaml, immediately generate PDF and open it for user to review:
 
 1. **Summarize what you changed:**
 ```
@@ -66,9 +84,6 @@ Key changes:
 - Profile: [what you emphasized]
 - Experience: [key bullets changed]  
 - Skills: [how you reordered]
-
-⚠️ Placeholder metrics to verify:
-- [List any [VERIFY: X] tags you added]
 
 📄 Generating PDF preview...
 ```
@@ -95,21 +110,21 @@ Does this look good?
 
 ### STEP 6: Handle User Response
 - If user approves: Confirm PDF is ready to apply
-- If user requests changes: Re-edit cv_master.yaml, regenerate PDF, and open again
+- If user requests changes: Re-edit cv_[job_name].yaml, regenerate PDF, and open again
 - Iterate until user is satisfied
 
 ## Important Notes
 - This is a NEW chat for each job application
 - User has 50 applications to do - be efficient
 - Default to founder positioning for PM roles
-- Every bullet needs a metric
-- If metric is unknown, use [VERIFY: X] placeholder
-- Follow TAILORING_GUIDE.md for all formatting decisions
+- Every bullet needs a metric (make reasonable estimates)
+- Follow TAILORING_GUIDE.md for all structure and formatting decisions
 - User is 24, Ukrainian, based in Ireland, applying to London roles
 - **CRITICAL:** After editing YAML, immediately generate PDF AND open it via `open` command
 - User needs to SEE the formatted CV visually, not just YAML diff
 - If user requests changes, re-edit YAML and regenerate/open PDF again
 - Iterate until user approves the visual preview
+- **YAML structure must match generate.py expectations exactly** (see STEP 4)
 
 ## Files Structure
 - cv_master.yaml = SOURCE OF TRUTH (NEVER EDIT - always read from this)

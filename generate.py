@@ -49,8 +49,10 @@ def format_experience(experience_list):
         
         # Add achievements as bullet points
         for achievement in exp['achievements']:
-            # Escape special Typst characters if needed
-            achievement_escaped = achievement.replace('"', '\\"')
+            # Escape special Typst characters
+            achievement_escaped = achievement.replace('\\', '\\\\')  # Escape backslashes first
+            achievement_escaped = achievement_escaped.replace('$', '\\$')  # Escape dollar signs
+            achievement_escaped = achievement_escaped.replace('"', '\\"')  # Escape quotes
             entry += f"- {achievement_escaped}\n"
         
         entry += "\n"

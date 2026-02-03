@@ -114,99 +114,165 @@
 
 ---
 
-### **STEP 3: Tailor CV in cv_master.yaml**
+### **STEP 3: Tailor CV in Job-Specific YAML**
+
+**CRITICAL:** 
+1. Copy `cv_master.yaml` to `cv_[job_name].yaml`
+2. Edit the NEW job-specific file only
+3. Never edit `cv_master.yaml` during tailoring
+
+---
+
+## **YAML Structure Guide (MUST FOLLOW EXACTLY)**
+
+**The job-specific YAML must match this exact structure for generate.py to work:**
+
+```yaml
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  [2-3 sentence summary tailored to THIS role]
+
+experience:
+  - company: "Company Name"
+    title: "Job Title"
+    location: "Location"
+    start_date: "Month YYYY"
+    end_date: "Month YYYY" or "Present"
+    achievements:
+      - "Bullet 1: Accomplished X measured by Y by doing Z"
+      - "Bullet 2: Accomplished X measured by Y by doing Z"
+      - "Bullet 3: Accomplished X measured by Y by doing Z"
+
+skills:
+  category_name:
+    - "Skill 1"
+    - "Skill 2"
+  another_category:
+    - "Skill A"
+    - "Skill B"
+
+education:
+  institution: "Institution Name"
+  degree: "Degree Type"
+  field: "Field of Study"
+  location: "Location"
+  graduation_date: "Month YYYY - Month YYYY"
+  gpa: "Grade A" (optional)
+  coursework: (optional)
+    - "Course 1"
+    - "Course 2"
+```
+
+**Key Structure Rules:**
+- `experience` = list of dicts with `achievements` key (list of strings)
+- `skills` = dict of categories, each category is a list
+- `education` = single dict (NOT a list)
+- `profile` = single string (use `|` for multi-line)
+
+---
 
 #### **3a. Profile/Summary**
 
 **Match to role type:**
-- **0-to-1 PM roles:** Lead with "Founder who built WorthView from conception to production..." OR "Founder who took product from 0-to-1..."
-- **Growth PM roles:** Lead with "Product-driven growth leader who delivered 44% YoY growth..."
-- **Technical PM roles:** Lead with "Product builder with hands-on technical execution..."
+- **0-to-1 roles:** Lead with "Founder who built WorthView from conception to production..." 
+- **Growth roles:** Lead with "Product-driven growth leader who delivered 44% YoY growth..."
+- **Technical roles:** Lead with "Product builder with hands-on technical execution..."
 - Remember: Use "0-to-1" or "from conception to launch", never "0→1"
 
 **Formula:**
 - Sentence 1: Your unique positioning (founder + specific achievement)
 - Sentence 2: Breadth of experience (FinTech + eCommerce)
-- Sentence 3: Skill combo that matches their need (product + growth + technical)
+- Sentence 3: Skill combo that matches their need
 
 **Keep it:** 2-3 sentences max, dense with keywords and metrics.
 
 ---
 
-#### **3b. Work Experience**
+#### **3b. Work Experience - Achievements**
 
-**cv_master.yaml contains raw facts from LinkedIn. Your job: generate compelling bullets.**
+**For each role, tailor the `achievements` list (3-4 bullets):**
 
-**For each role, create 3-4 bullets using format:**
-**"Accomplished [X] as measured by [Y] by doing [Z]"**
+**Format:** "Accomplished [X] as measured by [Y] by doing [Z]"
 
-**Read from cv_master.yaml:**
-- `description`: Core facts about the role
-- `highlights`: Key achievements and responsibilities
+**Tailoring Rules:**
+1. **Reorder bullets:** Most relevant to THIS job goes first
+2. **Rewrite for relevance:** Adjust language to match job domain
+3. **Emphasize keywords:** Use exact phrases from job posting
+4. **Follow professional style:** No arrows, no "est.", consistent formatting
 
-**Generate bullets by:**
-1. **Expanding facts into achievements** (following professional formatting rules above)
-   - Fact: "44% YoY organic revenue growth"
-   - Bullet: "Delivered 44% YoY organic revenue growth ($2.5M to $3.6M) across 12 global eCommerce stores by implementing AI-driven content strategy, technical SEO optimization, and conversion rate improvements"
-   - Note: Use "to" not "→", no "est." prefix, consistent $ formatting
-
-2. **Making reasonable metric estimates**
-   - WorthView users: Estimate "50-100 early adopters" (early-stage startup)
-   - Features shipped: Estimate "10-15 core features" (6 months of work)
-   - Traffic numbers: Extrapolate from known percentages
-   - Revenue: Skip specific $ if not known, focus on % growth
-   - Time improvements: Estimate based on scope (e.g., "40% faster page load")
-
-3. **Adding context from highlights**
-   - Use highlights to enrich bullets
-   - Example: If highlights mention "cross-functional," emphasize collaboration
-
-**Metric Guidelines:**
-- **Known metrics (use exact):** 44% YoY, 72% traffic, 12 stores, 6 months timeline
-- **Estimated metrics (use reasonable ranges):** "50-100 users", "10+ features", "2-3x improvement"
-- **When uncertain:** Focus on impact, not numbers: "significantly increased" vs exact %
-
-**Rules:**
-1. **Every bullet needs impact** (metric or clear outcome)
-2. **Use strong action verbs:** Built, Delivered, Drove, Led, Achieved, Increased, Scaled
-3. **Match keywords:** If JD says "data-driven," use "data-driven" in bullets
-4. **Reorder bullets:** Most relevant to THIS job goes first
-5. **Make estimates reasonable:** Early startup = 10s-100s users, not millions
-
-**Examples:**
-
-From cv_master.yaml fact:
+**Example - Original (Master):**
 ```yaml
-description: "Built WorthView end-to-end, asset and liability tracking with live pricing"
+achievements:
+  - "Delivered 44% YoY organic revenue growth ($2.5M to $3.6M)..."
 ```
 
-Generated bullet (following professional style):
-```
-Built WorthView from conception to production in 6 months, iterating from spreadsheet prototype 
-to web app MVP serving 75 active users with iOS release planned Feb 2026
+**Example - Tailored for Growth PM:**
+```yaml
+achievements:
+  - "Delivered 44% YoY organic revenue growth ($2.5M to $3.6M) across 12 global eCommerce stores by implementing data-driven experimentation and conversion optimization"
+  - "Built A/B testing framework that increased conversion rates..."
 ```
 
-Note: Use "from conception to production" not "0→1", "active users" not "early adopters"
-
-**User reviews PDF visually and corrects if wildly off.**
+**Example - Tailored for Product PM (de-emphasize SEO):**
+```yaml
+achievements:
+  - "Led cross-functional growth initiatives across product, engineering, and marketing teams..."
+  - "Delivered 44% YoY revenue growth by driving product-led growth strategy across 12 stores..."
+```
 
 ---
 
 #### **3c. Skills Section**
 
-**Reorder skills to match job posting priority:**
+**Reorder categories AND skills to match job posting priority:**
 
-**Example:**
-- If JD emphasizes "SQL, data analysis, A/B testing" → Put these first
-- If JD emphasizes "0→1 product development" → Lead with product skills
+**Structure:**
+```yaml
+skills:
+  most_relevant_category:
+    - "Most important skill for THIS role"
+    - "Second most important"
+  secondary_category:
+    - "Relevant skill"
+```
 
-**Categories to adjust:**
-1. **Product skills:** Reorder based on what JD emphasizes
-2. **Growth skills:** If growth role, these go first
-3. **Technical skills:** If technical PM, emphasize SQL/APIs
-4. **Tools:** Match their stack if mentioned
+**Examples:**
 
-**Remove or de-emphasize:** Skills not relevant to this specific role (but keep CV to 1 page)
+**For Growth PM role:**
+```yaml
+skills:
+  growth_marketing:
+    - "Growth Strategy"
+    - "A/B Testing & Experimentation"
+    - "Conversion Optimization"
+  product_management:
+    - "Product Strategy"
+    - "Data-Driven Decision Making"
+```
+
+**For Technical PM role:**
+```yaml
+skills:
+  technical_skills:
+    - "SQL & Data Analysis"
+    - "APIs & Integrations"
+    - "Web Development (HTML/CSS/JavaScript)"
+  product_management:
+    - "Product Strategy"
+    - "Cross-functional Leadership"
+```
+
+**Tailoring:**
+1. Put most relevant category first
+2. Within each category, reorder skills by relevance
+3. You can rename categories to match job language
+4. Remove skills not relevant to THIS role
 
 ---
 
