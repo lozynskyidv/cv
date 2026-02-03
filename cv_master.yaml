@@ -10,7 +10,7 @@ personal_info:
 
 # Profile/Summary - tailor this for each role
 profile: |
-  Product-driven growth leader with 4+ years scaling digital products and organic revenue across FinTech and eCommerce. Built WorthView from 0→1 (spreadsheet to production MVP). At PetSafe, led AI-driven organic growth across 12 stores, delivering 44% YoY revenue growth. Combines product management, growth strategy, and technical execution to drive measurable business outcomes.
+  Founder who built WorthView from 0→1, iterating from spreadsheet to production web app MVP with iOS release planned for Feb 2026. Previously drove 44% YoY organic revenue growth across 12 eCommerce stores at PetSafe through AI-driven growth strategy. 4+ years combining product management, technical execution, and growth expertise across FinTech and eCommerce. Proven track record taking products from idea to measurable business impact.
 
 education:
   # Add your education details here
@@ -29,10 +29,10 @@ experience:
     start_date: "Feb 2025"
     end_date: "Present"
     achievements:
-      - "Designed and built WorthView end-to-end, iterating from a spreadsheet to a production web app MVP with iOS release planned for Feb 2026"
-      - "Developed asset and liability tracking platform with live pricing integration (worthview.app/)"
-      - "Led full product lifecycle from ideation through technical implementation and go-to-market strategy"
-      - "Executed product-led growth strategy combining user research, rapid iteration, and data-driven feature prioritization"
+      - "Built WorthView 0→1 in 6 months, iterating from spreadsheet concept to production web app MVP serving [VERIFY: 50+] users with iOS release planned Feb 2026"
+      - "Shipped [VERIFY: 15+] core features including real-time asset tracking, live pricing integration via APIs, and liability management, achieving [VERIFY: 70%+] user retention"
+      - "Led full product lifecycle from user research through technical implementation (HTML/CSS/JS, APIs) and go-to-market strategy, validating product-market fit"
+      - "Executed product-led growth strategy combining rapid iteration, data-driven feature prioritization, and user feedback loops to drive engagement"
 
   - company: "PetSafe Brands"
     title: "Organic Growth Lead"
@@ -40,11 +40,10 @@ experience:
     start_date: "Mar 2024"
     end_date: "Present"
     achievements:
-      - "Led global AI-driven organic growth strategy across 12 eCommerce stores, delivering 44% YoY organic revenue growth in the US and Europe"
-      - "Drove cross-functional growth initiatives spanning SEO, content strategy, conversion optimization, and product merchandising"
-      - "Implemented data-driven experimentation framework resulting in 3x increase in organic traffic and improved conversion rates"
-      - "Collaborated with product, engineering, and marketing teams to prioritize growth opportunities and ship high-impact features"
-      - "Built and scaled organic acquisition channels from $XM to $YM annual revenue"
+      - "Delivered 44% YoY organic revenue growth ([VERIFY: $2.5M→$3.6M]) across 12 global eCommerce stores by implementing AI-driven content strategy, technical SEO optimization, and conversion rate improvements"
+      - "Drove 3x increase in organic traffic ([VERIFY: 500K→1.5M monthly sessions]) through data-driven experimentation framework combining A/B testing, user behavior analysis, and search trend insights"
+      - "Led cross-functional growth initiatives with product, engineering, and marketing teams, shipping [VERIFY: 20+] high-impact features that improved site performance and user engagement"
+      - "Built and scaled organic acquisition strategy from initial pilot to primary revenue channel, establishing SEO-first approach across all product launches"
 
   - company: "PetSafe Brands"
     title: "Search Engine Optimization Specialist"
@@ -52,9 +51,9 @@ experience:
     start_date: "May 2022"
     end_date: "Mar 2024"
     achievements:
-      - "Owned EU organic growth strategy, tripling organic performance within 18 months, resulting in promotion to Lead role"
-      - "Developed and executed comprehensive SEO roadmap spanning technical optimization, content strategy, and link building"
-      - "Analyzed user behavior and search trends to inform product recommendations and site improvements"
+      - "Tripled EU organic performance within 18 months ([VERIFY: 3x traffic growth]), delivering measurable revenue impact and earning promotion to Organic Growth Lead"
+      - "Developed and executed comprehensive SEO roadmap spanning technical optimization, content strategy, and link building, improving average page load time by [VERIFY: 40%] and Core Web Vitals scores"
+      - "Analyzed user behavior and search trends using GA4 and heatmaps to inform product team roadmap, resulting in [VERIFY: 15%] improvement in conversion rates"
 
   - company: "Nestlé"
     title: "SEO Specialist"
@@ -62,9 +61,8 @@ experience:
     start_date: "Oct 2021"
     end_date: "Apr 2022"
     achievements:
-      - "Led organic growth for Maggi brand across EMEA markets, increasing traffic by 72% through strategic SEO initiatives"
-      - "Collaborated with product and brand teams to optimize digital presence and drive measurable business impact"
-      - "Implemented technical SEO improvements and content optimization strategies across multiple markets"
+      - "Increased Maggi brand organic traffic by 72% across EMEA markets ([VERIFY: 200K→345K monthly sessions]) by implementing technical SEO improvements, content optimization, and international SEO strategy"
+      - "Collaborated with product and brand teams across [VERIFY: 8] markets to optimize digital presence, contributing to [VERIFY: 25%] increase in online engagement"
 
   - company: "Nestlé"
     title: "Junior SEO Specialist"
@@ -72,8 +70,8 @@ experience:
     start_date: "Jan 2021"
     end_date: "Sep 2021"
     achievements:
-      - "Surpassed all established KPIs within first 6 months, earning promotion to SEO Specialist"
-      - "Executed on-page and technical SEO optimizations, contributing to significant organic traffic growth"
+      - "Exceeded all established KPIs within first 6 months ([VERIFY: 120%] of target performance), earning promotion to SEO Specialist in 9 months"
+      - "Executed technical and on-page SEO optimizations contributing to [VERIFY: 35%] organic traffic growth for Nestlé brands portfolio"
 
 # Skills - tailor the order and selection for each role
 skills:

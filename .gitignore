@@ -1,6 +1,6 @@
-# Output directory (keep CVs local, don't commit)
-output/*.pdf
-output/*.typ
+# Keep generated CVs for portfolio/reference
+# output/*.pdf (commented out - we want to track PDFs)
+# output/*.typ (keep these for debugging)
 
 # Python
 __pycache__/
