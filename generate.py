@@ -4,8 +4,8 @@ CV Generator - Converts YAML CV data to PDF via Typst
 Usage: python generate.py "Job Title at Company" [yaml_file]
 Examples:
   python generate.py "Product Manager at Google"
-  python generate.py "Product Manager at Google" cv_product_manager_google.yaml
-Output: output/Dmytro_Lozynskyi_Company.pdf
+  python generate.py "Product Manager at Google" tailored_cvs/cv_product_manager_google.yaml
+Output: resumes/Dmytro_Lozynskyi_Company.pdf
 """
 
 import sys
@@ -174,8 +174,8 @@ def main():
     # Optional: specify YAML file (defaults to cv_master.yaml)
     yaml_file = sys.argv[2] if len(sys.argv) > 2 else "cv_master.yaml"
     
-    # Create output directory
-    output_dir = Path("output")
+    # Create resumes directory
+    output_dir = Path("resumes")
     output_dir.mkdir(exist_ok=True)
     
     # Generate filenames
