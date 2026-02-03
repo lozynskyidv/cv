@@ -36,41 +36,23 @@ experience:
   - company: "PetSafe Brands"
     title: "Organic Growth Lead"
     location: "Dublin, Ireland (Hybrid)"
-    start_date: "Mar 2024"
+    start_date: "May 2022"
     end_date: "Present"
     achievements:
       - "Delivered 44% YoY organic revenue growth ([VERIFY: $2.5M→$3.6M]) across 12 global eCommerce stores by implementing AI-driven content strategy, technical SEO optimization, and conversion rate improvements"
       - "Drove 3x increase in organic traffic ([VERIFY: 500K→1.5M monthly sessions]) through data-driven experimentation framework combining A/B testing, user behavior analysis, and search trend insights"
       - "Led cross-functional growth initiatives with product, engineering, and marketing teams, shipping [VERIFY: 20+] high-impact features that improved site performance and user engagement"
-      - "Built and scaled organic acquisition strategy from initial pilot to primary revenue channel, establishing SEO-first approach across all product launches"
-
-  - company: "PetSafe Brands"
-    title: "Search Engine Optimization Specialist"
-    location: "Dublin, Ireland (Hybrid)"
-    start_date: "May 2022"
-    end_date: "Mar 2024"
-    achievements:
-      - "Tripled EU organic performance within 18 months ([VERIFY: 3x traffic growth]), delivering measurable revenue impact and earning promotion to Organic Growth Lead"
-      - "Developed and executed comprehensive SEO roadmap spanning technical optimization, content strategy, and link building, improving average page load time by [VERIFY: 40%] and Core Web Vitals scores"
-      - "Analyzed user behavior and search trends using GA4 and heatmaps to inform product team roadmap, resulting in [VERIFY: 15%] improvement in conversion rates"
+      - "Promoted from SEO Specialist to Organic Growth Lead within 18 months based on delivering measurable revenue impact and tripling EU organic performance"
 
   - company: "Nestlé"
     title: "SEO Specialist"
     location: "Lviv, Ukraine (Hybrid)"
-    start_date: "Oct 2021"
+    start_date: "Jan 2021"
     end_date: "Apr 2022"
     achievements:
       - "Increased Maggi brand organic traffic by 72% across EMEA markets ([VERIFY: 200K→345K monthly sessions]) by implementing technical SEO improvements, content optimization, and international SEO strategy"
       - "Collaborated with product and brand teams across [VERIFY: 8] markets to optimize digital presence, contributing to [VERIFY: 25%] increase in online engagement"
-
-  - company: "Nestlé"
-    title: "Junior SEO Specialist"
-    location: "Lviv, Ukraine (Hybrid)"
-    start_date: "Jan 2021"
-    end_date: "Sep 2021"
-    achievements:
-      - "Exceeded all established KPIs within first 6 months ([VERIFY: 120%] of target performance), earning promotion to SEO Specialist in 9 months"
-      - "Executed technical and on-page SEO optimizations contributing to [VERIFY: 35%] organic traffic growth for Nestlé brands portfolio"
+      - "Promoted from Junior SEO Specialist to SEO Specialist within 9 months after exceeding all established KPIs ([VERIFY: 120%] of target performance)"
 
 # Skills - tailor the order and selection for each role
 skills:
