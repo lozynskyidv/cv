@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
-CV Generator - Converts cv_master.yaml to PDF via Typst
-Usage: python generate.py "Job Title at Company"
+CV Generator - Converts YAML CV data to PDF via Typst
+Usage: python generate.py "Job Title at Company" [yaml_file]
+Examples:
+  python generate.py "Product Manager at Google"
+  python generate.py "Product Manager at Google" cv_product_manager_google.yaml
 Output: output/Dmytro_Lozynskyi_Job_Title_Company.pdf
 """
 
@@ -149,11 +152,16 @@ def compile_typst_to_pdf(typst_file, output_pdf):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python generate.py 'Job Title at Company'")
-        print("Example: python generate.py 'Product Manager at Google'")
+        print("Usage: python generate.py 'Job Title at Company' [yaml_file]")
+        print("Examples:")
+        print("  python generate.py 'Product Manager at Google'")
+        print("  python generate.py 'Product Manager at Google' cv_product_manager_google.yaml")
         sys.exit(1)
     
     job_title = sys.argv[1]
+    
+    # Optional: specify YAML file (defaults to cv_master.yaml)
+    yaml_file = sys.argv[2] if len(sys.argv) > 2 else "cv_master.yaml"
     
     # Create output directory
     output_dir = Path("output")
@@ -166,8 +174,8 @@ def main():
     pdf_path = output_dir / pdf_filename
     
     # Load CV data
-    print(f"📄 Loading CV data from cv_master.yaml...")
-    cv_data = load_cv_data()
+    print(f"📄 Loading CV data from {yaml_file}...")
+    cv_data = load_cv_data(yaml_file)
     
     # Generate Typst file
     print(f"✏️  Generating Typst file...")

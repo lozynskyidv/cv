@@ -4,7 +4,7 @@ Your end-to-end workflow for tailoring CVs at scale.
 
 ---
 
-## 🔄 Per-Application Workflow (90 seconds)
+## 🔄 Per-Application Workflow (60 seconds)
 
 ### **Step 1: Find Job on LinkedIn** (30 sec)
 - Browse LinkedIn jobs
@@ -21,7 +21,8 @@ https://www.linkedin.com/jobs/view/1234567890/
 That's it! AI automatically:
 - Loads .cursorrules
 - Reads TAILORING_GUIDE.md
-- Reads cv_master.yaml
+- **Reads cv_master.yaml (source of truth - never modified)**
+- **Creates cv_[job_name].yaml (fresh copy)**
 - Analyzes job posting
 
 ### **Step 4: Answer Questions** (30 sec)
@@ -34,7 +35,9 @@ Answer concisely.
 
 ### **Step 5: AI Generates & Opens PDF Preview** (5 sec)
 AI automatically:
-- Generates PDF from tailored cv_master.yaml
+- **Creates cv_[job_name].yaml from cv_master.yaml**
+- **Edits cv_[job_name].yaml** (master stays untouched)
+- Generates PDF from tailored YAML
 - Opens PDF in Preview app
 - Shows summary of what changed
 
@@ -87,14 +90,27 @@ Upload PDF to LinkedIn/company website.
 
 ## 📁 File Management
 
-**Every 5-10 applications:**
+### **After each application:**
+Your folder will have:
+```
+cv/
+├── cv_master.yaml                    ← Source of truth (never changes)
+├── cv_product_manager_google.yaml    ← Tailored for Google
+├── cv_growth_manager_meta.yaml       ← Tailored for Meta
+└── output/
+    ├── Dmytro_Lozynskyi_Product_Manager_Google.pdf
+    └── Dmytro_Lozynskyi_Growth_Manager_Meta.pdf
+```
+
+### **Git commits (optional):**
 ```bash
-git add cv_master.yaml
-git commit -m "Tailored CVs for Google, Meta, Revolut, Wise, Stripe"
+# Commit tailored YAMLs + PDFs
+git add cv_*.yaml output/*.pdf
+git commit -m "Applications: Google PM, Meta Growth"
 git push
 ```
 
-This keeps history of your tailoring decisions.
+**Important:** `cv_master.yaml` stays untouched during tailoring!
 
 **Your `output/` folder will have:**
 ```
