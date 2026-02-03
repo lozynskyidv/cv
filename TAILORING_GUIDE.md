@@ -16,10 +16,11 @@
    - Note preferred experience level (0→1 vs growth vs technical)
 
 2. **Identify Role Type**
-   - **0→1 Builder PM:** New products, MVP, early-stage → Emphasize WorthView founder experience
+   - **0-to-1 Builder PM:** New products, MVP, early-stage → Emphasize WorthView founder experience
    - **Growth/Scale PM:** Metrics, optimization, scaling → Emphasize PetSafe 44% growth
    - **Technical PM:** APIs, engineering collaboration → Emphasize WorthView technical build
    - **Platform/Infra PM:** Systems, tools → Adjust accordingly
+   - Note: Use "0-to-1" in writing, not "0→1"
 
 3. **Spot Pain Points**
    - What problem is this team trying to solve?
@@ -36,7 +37,7 @@
 ### **STEP 2: Ask Strategic Questions (3-5 Only)**
 
 **✅ GOOD Questions:**
-- "This role emphasizes [0→1 building / growth at scale / technical execution] - should we lead with your WorthView founder story or PetSafe growth achievements?"
+- "This role emphasizes [0-to-1 building / growth at scale / technical execution] - should we lead with your WorthView founder story or PetSafe growth achievements?"
 - "They're looking for [specific skill/experience] - want to highlight [specific project/achievement]?"
 - "Should we angle you as 'product builder' or 'growth-focused PM' for this one?"
 - "Any specific metrics from PetSafe or WorthView I should emphasize? (revenue, users, growth %, timeline)"
@@ -52,14 +53,64 @@
 
 ---
 
+## ⚠️ CRITICAL: Professional CV Writing Style
+
+**Before writing anything, follow these professional formatting rules:**
+
+### **Formatting Rules:**
+
+**Numbers & Ranges:**
+- ❌ NO arrows: "0→1", "$2M→$3M", "200K→345K"
+- ✅ YES: "0-to-1" OR "from conception to launch", "$2M to $3M", "200K to 345K"
+- ❌ NO "est." prefix: "(est. $2.5M→$3.6M)"
+- ✅ YES: "$2.5M-$3.6M" OR "~$2.5M" OR skip $ and focus on % only
+- ✅ Use consistent formatting: Ensure all $ symbols, M/K suffixes match exactly
+
+**Professional Language:**
+- ❌ NO boxing into old titles: "Promoted from SEO Specialist to Lead"
+- ✅ YES: "Promoted to Lead role within 18 months to own cross-functional growth strategy"
+- ❌ NO tech Twitter jargon unless explicitly in job posting
+- ✅ YES: Professional, clear business language
+
+**Education Formatting:**
+- Single line format, not nested bullets
+- Format: Institution | Degree | Field | Dates | Grade
+- Example: "Lviv College of Information and Computer Technologies | Associate's degree in Information Systems and Software Applications | Sep 2017 - Jul 2020 | Grade: A"
+
+### **Domain Translation:**
+
+**Don't box user into past role titles - translate to target role:**
+
+**Example 1: Applying for Product Manager (from SEO/Growth role)**
+- ❌ BAD: "Led global AI-driven organic growth as SEO specialist..."
+- ✅ GOOD: "Led global AI-driven growth strategy across 12 stores..."
+- **Why:** De-emphasize "SEO" title, emphasize broader "growth strategy" relevant to PM
+
+**Example 2: Mapping experience to new domain**
+- If user has "FinTech product" → Job is "Ad tech product"
+  - Emphasize: "data product", "real-time integrations", "analytics platform"
+  - De-emphasize: "financial", "net worth", "asset tracking"
+- If user has "SEO forecasting" → Job needs "media forecasting"
+  - Emphasize: "data-driven forecasting", "predictive analytics", "metrics optimization"
+  - De-emphasize: "organic traffic", "search rankings"
+
+**Example 3: Promotion framing**
+- ❌ "Promoted from Junior SEO Specialist to SEO Specialist" (boxes into SEO)
+- ✅ "Promoted within 9 months after exceeding all KPIs" (shows performance, not title)
+- ❌ "Promoted from SEO Specialist to Organic Growth Lead" (still emphasizes SEO path)
+- ✅ "Promoted to Lead role to own cross-functional growth initiatives" (broader scope)
+
+---
+
 ### **STEP 3: Tailor CV in cv_master.yaml**
 
 #### **3a. Profile/Summary**
 
 **Match to role type:**
-- **0→1 PM roles:** Lead with "Founder who built WorthView 0→1..."
+- **0-to-1 PM roles:** Lead with "Founder who built WorthView from conception to production..." OR "Founder who took product from 0-to-1..."
 - **Growth PM roles:** Lead with "Product-driven growth leader who delivered 44% YoY growth..."
 - **Technical PM roles:** Lead with "Product builder with hands-on technical execution..."
+- Remember: Use "0-to-1" or "from conception to launch", never "0→1"
 
 **Formula:**
 - Sentence 1: Your unique positioning (founder + specific achievement)
@@ -82,9 +133,10 @@
 - `highlights`: Key achievements and responsibilities
 
 **Generate bullets by:**
-1. **Expanding facts into achievements**
+1. **Expanding facts into achievements** (following professional formatting rules above)
    - Fact: "44% YoY organic revenue growth"
-   - Bullet: "Delivered 44% YoY organic revenue growth (est. $2.5M→$3.6M) across 12 global eCommerce stores by implementing AI-driven content strategy, technical SEO optimization, and conversion rate improvements"
+   - Bullet: "Delivered 44% YoY organic revenue growth ($2.5M to $3.6M) across 12 global eCommerce stores by implementing AI-driven content strategy, technical SEO optimization, and conversion rate improvements"
+   - Note: Use "to" not "→", no "est." prefix, consistent $ formatting
 
 2. **Making reasonable metric estimates**
    - WorthView users: Estimate "50-100 early adopters" (early-stage startup)
@@ -116,11 +168,13 @@ From cv_master.yaml fact:
 description: "Built WorthView end-to-end, asset and liability tracking with live pricing"
 ```
 
-Generated bullet:
+Generated bullet (following professional style):
 ```
-Built WorthView 0→1 in 6 months, iterating from spreadsheet concept to production web app MVP 
-serving 75+ early adopters with iOS release planned Feb 2026
+Built WorthView from conception to production in 6 months, iterating from spreadsheet prototype 
+to web app MVP serving 75 active users with iOS release planned Feb 2026
 ```
+
+Note: Use "from conception to production" not "0→1", "active users" not "early adopters"
 
 **User reviews PDF visually and corrects if wildly off.**
 
