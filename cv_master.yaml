@@ -61,24 +61,13 @@ experience:
       - Exceeded all KPIs in first 6 months
 
 education:
-  - institution: "Y Combinator"
-    program: "Startup School"
-    location: "Remote"
-    date: "2022"
-    description: "7-week course on early-stage startup development covering MVP design, user acquisition, funding, and growth strategy"
-    highlights:
-      - Startups
-      - Product Development
-      - Growth Strategy
-
   - institution: "Lviv College of Information and Computer Technologies"
-    degree: "Associate's Degree"
+    degree: "Associate's degree"
     field: "Information Systems and Software Applications"
     location: "Lviv, Ukraine"
     start_date: "Sep 2017"
     end_date: "Jul 2020"
     grade: "Grade: A"
-    description: "Diploma in information systems, software development, and digital technologies"
     coursework:
       - "Web Development"
       - "Programming"
