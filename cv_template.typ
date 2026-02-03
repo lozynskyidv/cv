@@ -18,7 +18,7 @@
   linkedin: linkedin,
   phone: phone,
   accent-color: "#000000",
-  font: "New Computer Modern",
+  font: "Arial",
   paper: "a4",
 )
 
