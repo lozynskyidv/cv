@@ -50,12 +50,6 @@ education:
   location: "Lviv, Ukraine"
   graduation_date: "Sep 2017 - Jul 2020"
   gpa: "Grade A"
-  coursework:
-    - "Web Development"
-    - "Programming"
-    - "Network Systems"
-    - "Software Design"
-    - "Data Analysis"
 
 # Skills - AI will reorder categories and items based on job requirements
 skills:

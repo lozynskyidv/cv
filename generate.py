@@ -74,24 +74,18 @@ def format_skills(skills_dict):
 
 
 def format_education(edu_dict):
-    """Format education section for Typst"""
+    """Format education section for Typst - clean single line, no bullets"""
     dates = edu_dict.get('graduation_date', 'Expected YYYY')
-    gpa_str = f" | GPA: {edu_dict['gpa']}" if edu_dict.get('gpa') else ""
+    gpa_str = f" | {edu_dict['gpa']}" if edu_dict.get('gpa') else ""
     
+    # Clean single line format - no bullets, looks professional not junior
     edu_entry = f"""#edu(
   institution: "{edu_dict['institution']}",
   location: "{edu_dict['location']}",
   dates: "{dates}",
-  degree: "{edu_dict['degree']} in {edu_dict['field']}",
+  degree: "{edu_dict['degree']} in {edu_dict['field']}{gpa_str}",
 )
 """
-    
-    if gpa_str:
-        edu_entry += f"- {gpa_str.strip()}\n"
-    
-    if edu_dict.get('coursework'):
-        coursework = ", ".join(edu_dict['coursework'])
-        edu_entry += f"- Relevant Coursework: {coursework}\n"
     
     return edu_entry
 

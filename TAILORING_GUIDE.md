@@ -164,9 +164,6 @@ education:
   location: "Location"
   graduation_date: "Month YYYY - Month YYYY"
   gpa: "Grade A" (optional)
-  coursework: (optional)
-    - "Course 1"
-    - "Course 2"
 ```
 
 **Key Structure Rules:**
@@ -179,18 +176,43 @@ education:
 
 #### **3a. Profile/Summary**
 
+**⚠️ CRITICAL: ALWAYS REWRITE PROFILE FOR EACH JOB**
+
+**DO NOT copy cv_master.yaml profile verbatim!** Tailor it to THIS specific role.
+
 **Match to role type:**
 - **0-to-1 roles:** Lead with "Founder who built WorthView from conception to production..." 
 - **Growth roles:** Lead with "Product-driven growth leader who delivered 44% YoY growth..."
 - **Technical roles:** Lead with "Product builder with hands-on technical execution..."
-- Remember: Use "0-to-1" or "from conception to launch", never "0→1"
+- **Data/Analytics roles:** Lead with "Data-driven product leader with SQL/analytics expertise..."
+- **Domain-specific roles:** Lead with relevant domain (FinTech, eCommerce, etc.)
 
 **Formula:**
-- Sentence 1: Your unique positioning (founder + specific achievement)
-- Sentence 2: Breadth of experience (FinTech + eCommerce)
-- Sentence 3: Skill combo that matches their need
+- Sentence 1: Your unique positioning for THIS role (founder + relevant achievement)
+- Sentence 2: Breadth of experience relevant to THIS job (FinTech + eCommerce)
+- Sentence 3: Skill combo that matches THEIR need (not generic)
 
-**Keep it:** 2-3 sentences max, dense with keywords and metrics.
+**Keep it:** 2-3 sentences max, dense with keywords from THIS job posting.
+
+**Example - Tailoring for Different Roles:**
+
+**For 0-to-1 PM:**
+```yaml
+profile: |
+  Founder who built WorthView FinTech product from conception to production in 6 months...
+```
+
+**For Growth PM:**
+```yaml
+profile: |
+  Product-driven growth leader who delivered 44% YoY growth at PetSafe Brands...
+```
+
+**For Technical PM:**
+```yaml
+profile: |
+  Product builder with hands-on technical execution, having built full-stack FinTech product...
+```
 
 ---
 
