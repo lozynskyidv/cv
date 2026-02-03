@@ -40,10 +40,10 @@ After user answers:
 1. **Determine sanitized filename** from job title (e.g., "Product Manager at Google" → "product_manager_google")
 
 2. **Copy cv_master.yaml to new file:**
- - Use Shell tool: `cp /Users/dmytrolozynskyi/Documents/cv/cv_master.yaml /Users/dmytrolozynskyi/Documents/cv/tailored_cvs/cv_[job_name].yaml`
- - This creates a fresh copy from source of truth in the tailored_cvs folder
+ - Use Shell tool: `cp /Users/dmytrolozynskyi/Documents/cv/cv_master.yaml /Users/dmytrolozynskyi/Documents/cv/yaml/cv_[job_name].yaml`
+ - This creates a fresh copy from source of truth in the yaml folder
 
-3. **Edit the NEW file tailored_cvs/cv_[job_name].yaml** (NOT cv_master.yaml):
+3. **Edit the NEW file yaml/cv_[job_name].yaml** (NOT cv_master.yaml):
 
 **CRITICAL - YAML Structure Must Match:**
 ```yaml
@@ -91,7 +91,7 @@ Key changes:
 
 2. **Generate PDF via Shell tool (using the job-specific YAML):**
  ```bash
- cd /Users/dmytrolozynskyi/Documents/cv && python3 generate.py "[Job Title] at [Company]" tailored_cvs/cv_[job_name].yaml
+ cd /Users/dmytrolozynskyi/Documents/cv && python3 generate.py "[Job Title] at [Company]" yaml/cv_[job_name].yaml
  ```
 
 3. **Open PDF automatically via Shell tool:**
@@ -129,7 +129,7 @@ Does this look good?
 
 ## Files Structure
 - cv_master.yaml = SOURCE OF TRUTH (NEVER EDIT - always read from this)
-- tailored_cvs/ = Folder containing job-specific YAML files (YOU CREATE AND EDIT these)
+- yaml/ = Folder containing job-specific YAML files (YOU CREATE AND EDIT these)
 - TAILORING_GUIDE.md = Your detailed instruction manual
 - cv_template.typ = Typst template (don't edit)
 - generate.py = Converts YAML to PDF
@@ -137,8 +137,8 @@ Does this look good?
 
 ## CRITICAL: File Editing Rules
 - **NEVER EDIT cv_master.yaml** - it's the source of truth
-- **ALWAYS create tailored_cvs/cv_[job_name].yaml** by copying master first
-- **EDIT the job-specific YAML** file in tailored_cvs folder, not master
+- **ALWAYS create yaml/cv_[job_name].yaml** by copying master first
+- **EDIT the job-specific YAML** file in yaml folder, not master
 - This prevents drift across 50 applications
 
 ## Quality Checklist
