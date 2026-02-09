@@ -9,7 +9,7 @@ personal_info:
   location: "Dublin, Ireland"
 
 profile: |
-  Founder of WorthView FinTech product, taking it from conception to production in 6 months with hands-on technical execution. Delivered 44% YoY growth at PetSafe Brands across 12 global eCommerce stores. Product leader with experience in 0-to-1 development, growth at scale, and cross-functional leadership across FinTech and eCommerce.
+  Founder of WorthView FinTech product, building it from conception to production with hands-on technical execution. Delivered 44% YoY growth at PetSafe Brands across 12 global eCommerce stores. Product leader with experience in 0-to-1 development, growth at scale, and cross-functional leadership across FinTech and eCommerce.
 
 experience:
   - company: "WorthView"
@@ -18,9 +18,8 @@ experience:
     start_date: "Feb 2025"
     end_date: "Present"
     achievements:
-      - "Built WorthView from conception to production in 6 months, iterating from spreadsheet prototype to web app MVP serving 75 active users with iOS release planned Feb 2026"
-      - "Developed full-stack FinTech product with live asset pricing via API integrations, delivering real-time portfolio tracking across multiple asset classes"
-      - "Led end-to-end product development including user research, technical implementation (HTML/CSS/JavaScript), and go-to-market strategy using product-led growth approach"
+      - "Designed and built WorthView end-to-end, iterating from a spreadsheet to a production web app MVP, with iOS release planned for Feb 2026"
+      - "Asset and liability tracking with live pricing"
 
   - company: "PetSafe Brands"
     title: "Organic Growth Lead"
@@ -28,10 +27,9 @@ experience:
     start_date: "May 2022"
     end_date: "Present"
     achievements:
-      - "Delivered 44% YoY organic revenue growth ($2.5M to $3.6M) across 12 global eCommerce stores by implementing AI-driven content strategy, technical SEO optimization, and conversion rate improvements"
-      - "Led cross-functional growth initiatives across product, engineering, and marketing teams, driving SEO-first approach for all product launches and feature releases"
-      - "Built data-driven experimentation framework with A/B testing that increased conversion rates by 18% and reduced customer acquisition costs by 25%"
-      - "Promoted to Lead role within 18 months after exceeding all growth KPIs in first year"
+      - "Led global AI-driven organic growth across 12 eCommerce stores, delivering 44% YoY organic revenue growth"
+      - "Increased conversion rates by 18% and reduced customer acquisition costs by 25%"
+      - "Promoted to Lead role within 18 months after exceeding all growth KPIs"
 
   - company: "Nestlé"
     title: "SEO Specialist"
@@ -39,9 +37,9 @@ experience:
     start_date: "Jan 2021"
     end_date: "Apr 2022"
     achievements:
-      - "Increased organic traffic by 72% for Maggi brand across EMEA markets through technical SEO improvements and content optimization strategy"
-      - "Collaborated with product and brand teams to implement international SEO best practices across multiple markets and languages"
-      - "Promoted to Specialist within 9 months after exceeding all KPIs in first 6 months"
+      - "Led organic growth for Maggi, increasing traffic by 72% across EMEA markets"
+      - "Collaborated with product and brand teams across multiple markets and languages"
+      - "Promoted to Specialist within 9 months after exceeding all KPIs"
 
 education:
   institution: "Lviv College of Information and Computer Technologies"
