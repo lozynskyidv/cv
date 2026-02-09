@@ -5,16 +5,20 @@ Dmytro Lozynskyi (24, Ukrainian in Ireland). Applying to London tech jobs (PM/Gr
 
 ## Workflow
 1. User pastes job posting
-2. Read @cv_master.yaml (source of truth - NEVER edit)
+2. Read @cv_master.yaml using Shell: `cat /Users/dmytrolozynskyi/Documents/cv/cv_master.yaml`
 3. Analyze: what does THIS job need?
 4. Ask 3-5 questions about which experience to emphasize
-5. Copy: `cp /Users/dmytrolozynskyi/Documents/cv/cv_master.yaml /Users/dmytrolozynskyi/Documents/cv/yaml/cv_[job_name].yaml`
-6. Edit yaml/cv_[job_name].yaml:
+5. After user answers, FIRST copy master using Shell:
+   `cp /Users/dmytrolozynskyi/Documents/cv/cv_master.yaml /Users/dmytrolozynskyi/Documents/cv/yaml/cv_[job_name].yaml`
+6. THEN edit ONLY yaml/cv_[job_name].yaml (NEVER cv_master.yaml):
+   - Use StrReplace or Write tools on yaml/cv_[job_name].yaml
    - Rewrite profile for THIS job
    - Reorder bullets - most relevant first
    - Match their keywords naturally
-7. Generate: `cd /Users/dmytrolozynskyi/Documents/cv && python3 generate.py "[Job] at [Company]" yaml/cv_[job_name].yaml`
-8. Open: `open /Users/dmytrolozynskyi/Documents/cv/resumes/Dmytro_Lozynskyi_[Company].pdf`
+7. Generate PDF using Shell:
+   `cd /Users/dmytrolozynskyi/Documents/cv && python3 generate.py "[Job] at [Company]" yaml/cv_[job_name].yaml`
+8. Open PDF using Shell:
+   `open /Users/dmytrolozynskyi/Documents/cv/resumes/Dmytro_Lozynskyi_[Company].pdf`
 
 ## Tailoring Rule
 Read the job description. Identify what they need. 
@@ -38,8 +42,16 @@ education: {institution: "", degree: ""}    # single dict
 ```
 
 ## Critical Rules
-- NEVER edit cv_master.yaml (source of truth)
-- ALWAYS copy to yaml/cv_[job].yaml first
-- Rewrite profile for each job (don't copy from master)
-- Reorder experience bullets - most relevant to THIS job first
-- Use THIS job's keywords and language
+- ⛔ NEVER EDIT cv_master.yaml - it is the source of truth
+- ⛔ If you need to read cv_master.yaml, use Shell: `cat cv_master.yaml`
+- ✅ ALWAYS copy master to yaml/cv_[job].yaml FIRST using Shell cp command
+- ✅ ONLY edit yaml/cv_[job_name].yaml (the copied file)
+- ✅ Rewrite profile for each job (don't copy from master)
+- ✅ Reorder experience bullets - most relevant to THIS job first
+- ✅ Use THIS job's keywords and language
+
+**FILE EDITING WORKFLOW:**
+1. Read cv_master.yaml with Shell cat command
+2. Copy with Shell: cp cv_master.yaml yaml/cv_[job].yaml
+3. Edit ONLY the copied file: yaml/cv_[job].yaml
+4. Never touch cv_master.yaml with StrReplace, Write, or EditNotebook tools
