@@ -1,0 +1,65 @@
+#!/bin/bash
+# Quick CV Generator from Clipboard
+# Usage: ./cv Google
+
+set -e
+
+if [ $# -ne 1 ]; then
+    echo "❌ Usage: ./cv COMPANY"
+    echo ""
+    echo "Example: ./cv Google"
+    echo ""
+    echo "Steps:"
+    echo "  1. Copy YAML from Claude Projects (Cmd+C)"
+    echo "  2. Run: ./cv Google"
+    echo "  3. PDF opens automatically!"
+    echo ""
+    echo "💡 Run './help' for full command reference"
+    exit 1
+fi
+
+COMPANY="$1"
+COMPANY_LOWER=$(echo "$COMPANY" | tr '[:upper:]' '[:lower:]')
+YAML_FILE="yaml/cv_${COMPANY_LOWER}.yaml"
+
+echo "📋 Reading YAML from clipboard..."
+
+# Read from clipboard
+YAML_CONTENT=$(pbpaste)
+
+# Check if clipboard has content
+if [ -z "$YAML_CONTENT" ]; then
+    echo "❌ Clipboard is empty!"
+    echo "Copy the YAML from Claude Projects first (Cmd+C)"
+    exit 1
+fi
+
+# Check if it looks like YAML
+if ! echo "$YAML_CONTENT" | grep -q "personal_info:"; then
+    echo "❌ Clipboard doesn't contain valid CV YAML"
+    echo "Make sure you copied the YAML code block from Claude"
+    exit 1
+fi
+
+# Create yaml directory if needed
+mkdir -p yaml
+
+# Save YAML to file
+echo "$YAML_CONTENT" > "$YAML_FILE"
+echo "✅ Saved to $YAML_FILE"
+
+# Generate PDF (extract job title from YAML or use generic)
+echo "📄 Generating PDF..."
+python3 generate.py "Application at $COMPANY" "$YAML_FILE"
+
+# Open PDF
+PDF_PATH="resumes/Dmytro_Lozynskyi_${COMPANY}.pdf"
+if [ -f "$PDF_PATH" ]; then
+    echo "✅ Opening PDF..."
+    open "$PDF_PATH"
+    echo ""
+    echo "🎉 Done! Review your CV and apply!"
+else
+    echo "❌ PDF generation failed"
+    exit 1
+fi

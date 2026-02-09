@@ -1,0 +1,119 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Growth marketing leader with 5+ years driving organic revenue growth across eCommerce and FinTech. Founded WorthView, a wealth management platform for high-net-worth individuals. Achieved 44% YoY revenue growth at PetSafe, owning CAC/LTV optimization across paid and organic channels with proven commercial impact.
+
+experience:
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built wealth management platform targeting high-net-worth individuals, scaling to 75 active users through product-led growth and strategic positioning for affluent audience"
+      - "Developed and executed end-to-end growth strategy including segmentation, messaging, user acquisition, and retention for premium FinTech product"
+      - "Led brand positioning and go-to-market strategy for luxury financial service, demonstrating strategic thinking and commercial mindset in HNW market"
+
+  - company: "PetSafe Brands"
+    title: "Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Owned revenue targets and delivered 44% YoY growth ($2.5M to $3.6M) across 12 global markets, optimizing CAC/LTV through paid and organic channel strategy"
+      - "Collaborated on Meta Ads and Google Ads campaign strategies, contributing to paid media planning and acquisition efficiency improvements alongside performance marketing team"
+      - "Built data-driven experimentation framework with A/B testing that increased conversion rates by 18% and reduced CAC by 25%, presenting strategic insights to senior leadership"
+      - "Led cross-functional growth initiatives with Brand, Product, and Sales teams, aligning messaging and positioning across all customer touchpoints"
+
+  - company: "Nestlé"
+    title: "Growth Marketing Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Drove 72% growth in customer acquisition for Maggi brand across EMEA markets through integrated growth strategy and content optimization"
+      - "Led multi-market segmentation and positioning initiatives, collaborating with Brand and Product teams to align messaging across regions"
+      - "Promoted within 9 months after exceeding acquisition and engagement KPIs, demonstrating strong commercial impact and strategic execution"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  growth_strategy:
+    - "CAC/LTV Optimization"
+    - "Acquisition Efficiency & Revenue Growth"
+    - "Paid & Organic Channel Strategy"
+    - "Segmentation & Positioning"
+    - "A/B Testing & Experimentation"
+    - "Forecasting & Strategic Planning"
+  
+  audience_expertise:
+    - "High-Net-Worth (HNW) Audience Marketing"
+    - "Affluent Customer Segmentation"
+    - "Premium/Luxury Brand Positioning"
+  
+  cross_functional_leadership:
+    - "Stakeholder Management"
+    - "Brand, Product & Sales Collaboration"
+    - "Strategic Insight Presentation"
+    - "Data-Driven Decision Making"
+  
+  technical_analytics:
+    - "Marketing Analytics & Reporting"
+    - "Google Analytics & Tag Manager"
+    - "SQL & Data Analysis"
+    - "Conversion Rate Optimization"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

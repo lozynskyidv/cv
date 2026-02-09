@@ -1,0 +1,120 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Growth lead who delivered 44% YoY revenue growth across 12 DTC eCommerce stores, scaling from $2.5M to $3.6M through data-driven experimentation and conversion optimization. Expertise in managing $150K annual budgets, collaborating with paid media teams on Meta Ads and Google Ads campaigns, and reducing customer acquisition costs by 25%.
+
+experience:
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Scaled FinTech product from 0 to 75 active users in 6 months through product-led growth strategy, leveraging continuous experimentation and user feedback iteration"
+      - "Led end-to-end growth strategy including user acquisition, retention optimization, and go-to-market execution for web app MVP with iOS launch planned Feb 2026"
+      - "Collaborated with designers on user interface optimization and conversion-focused design, driving user engagement and repeat usage metrics"
+
+  - company: "PetSafe Brands"
+    title: "Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY revenue growth ($2.5M to $3.6M) across 12 DTC eCommerce stores, managing $150K annual budget while collaborating with paid media specialists on Meta Ads and Google Ads campaign optimization"
+      - "Built data-driven experimentation framework with A/B testing that increased conversion rates by 18% and reduced customer acquisition costs by 25% through landing page optimization and creative iteration"
+      - "Collaborated cross-functionally with designers, creative teams, and data scientists to develop high-performing landing pages and conversion-focused content across digital channels"
+      - "Promoted to Lead role within 18 months after exceeding all growth KPIs, demonstrating expertise in scaling growth efficiently in fast-paced eCommerce environment"
+
+  - company: "Nestlé"
+    title: "Digital Growth Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased digital traffic by 72% for Maggi brand across EMEA markets through data-driven optimization strategy and continuous testing of content performance"
+      - "Collaborated with creative and brand teams to develop high-performing digital campaigns across multiple markets, optimizing for engagement and conversion metrics"
+      - "Promoted within 9 months after exceeding all growth KPIs, demonstrating ability to scale performance quickly in fast-paced consumer brand environment"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  performance_marketing:
+    - "Paid Social Strategy (Meta Ads, TikTok Ads)"
+    - "Google Ads Ecosystem"
+    - "Customer Acquisition & CAC Optimization"
+    - "Budget Management & ROI Analysis"
+    - "A/B Testing & Experimentation"
+    - "Conversion Rate Optimization"
+  
+  growth_strategy:
+    - "DTC eCommerce Growth"
+    - "Data-Driven Decision Making"
+    - "Marketing Analytics"
+    - "Growth Strategy & Scaling"
+    - "Performance Tracking & Reporting"
+  
+  technical_analytics:
+    - "SQL & Data Analysis"
+    - "Google Analytics & Tag Manager"
+    - "Mixpanel / Amplitude"
+    - "Landing Page Optimization"
+  
+  collaboration:
+    - "Cross-functional Leadership"
+    - "Creative Team Collaboration"
+    - "Stakeholder Management"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

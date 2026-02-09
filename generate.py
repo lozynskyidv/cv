@@ -81,7 +81,12 @@ def format_skills(skills_dict):
     skill_lines = []
     
     for category, skill_list in skills_dict.items():
-        category_title = category.replace('_', ' ').title()
+        # Use category as-is if it's already properly formatted (no underscores)
+        # Otherwise, replace underscores with spaces and title case
+        if '_' in category:
+            category_title = category.replace('_', ' ').title()
+        else:
+            category_title = category
         skills_str = ", ".join(skill_list)
         skill_lines.append(f"- *{category_title}:* {skills_str}")
     

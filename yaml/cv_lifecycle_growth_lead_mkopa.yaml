@@ -1,0 +1,121 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Organic Growth Lead who delivered 44% YoY revenue growth at PetSafe by building automated customer journeys (Klaviyo CRM), trigger-based campaigns, and multi-channel strategies (email, WhatsApp, SMS). Founded WorthView FinTech, driving activation and retention through in-app messaging and push notifications. Proven track record owning growth outcomes (activation, retention, LTV) through hands-on CRM execution and structured experimentation across FinTech and eCommerce.
+
+experience:
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Owned activation and retention metrics for FinTech product, building automated customer journeys including onboarding sequences, activation campaigns, and retention flows"
+      - "Deployed multi-channel lifecycle campaigns across in-app messaging and push notifications to drive user engagement and increase customer lifetime value"
+      - "Built FinTech product with live asset pricing integrations, shipping web app MVP with iOS release planned Feb 2026, using product-led growth approach"
+      - "Analyzed user cohorts and ran structured experiments to optimize activation rates and retention curves, iterating rapidly based on data-driven insights"
+
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY revenue growth ($2.5M to $3.6M) across 12 global eCommerce stores by building automated customer journeys in Klaviyo CRM (email, WhatsApp, SMS)"
+      - "Personally built trigger-based campaigns including onboarding sequences, activation flows, retention campaigns, and win-back journeys, optimizing across multiple channels"
+      - "Owned lifecycle growth outcomes (activation rate, retention, LTV) by running structured A/B tests that increased conversion rates by 18% and reduced CAC by 25%"
+      - "Designed customer segmentation frameworks and built dashboards (Tableau, Looker Studio) to track cohort performance, funnel metrics, and revenue impact"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased organic traffic by 72% for Maggi brand across EMEA markets through data-driven optimization and customer acquisition strategies"
+      - "Collaborated with product, marketing, and operations teams to implement growth initiatives across multiple international markets and languages"
+      - "Promoted to Specialist within 9 months after exceeding all KPIs in first 6 months"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  Lifecycle & CRM:
+    - "Klaviyo CRM (Email, WhatsApp, SMS)"
+    - "In-App Messaging & Push Notifications"
+    - "Trigger-Based Campaign Building"
+    - "Customer Journey Automation"
+    - "Segmentation & Personalization"
+  
+  Growth & Experimentation:
+    - "Lifecycle Growth Outcomes (Activation, Retention, LTV)"
+    - "A/B Testing & Structured Experimentation"
+    - "Conversion Optimization"
+    - "Customer Acquisition & Re-engagement"
+    - "Revenue Growth & Unit Economics"
+  
+  Data & Analytics:
+    - "SQL & Data Analysis"
+    - "Cohort Analysis & Funnel Tracking"
+    - "Dashboard Building (Tableau, Looker Studio)"
+    - "Google Analytics, Mixpanel, Amplitude"
+  
+  FinTech & eCommerce:
+    - "FinTech Product Experience"
+    - "Multi-store eCommerce Operations"
+    - "Mobile-First Growth Strategies"
+    - "Cross-functional Collaboration"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

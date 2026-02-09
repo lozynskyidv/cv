@@ -9,7 +9,7 @@ personal_info:
   location: "Dublin, Ireland"
 
 profile: |
-  Product Growth Lead with 5+ years driving experimentation and conversion optimization at scale. Delivered 44% YoY growth at PetSafe across 4 brands through hypothesis-driven A/B testing and data-driven CRO. Founded WorthView FinTech product with focus on activation and user-first onboarding.
+  Product Growth Lead who delivered 44% YoY growth and 3x conversion improvements through experimentation and CRO across 4 brands at PetSafe. Built hypothesis-driven A/B testing frameworks running 10+ experiments quarterly. Experience owning full-funnel optimization from activation to retention across consumer FinTech and eCommerce products.
 
 experience:
   - company: "WorthView"
@@ -18,9 +18,9 @@ experience:
     start_date: "Feb 2025"
     end_date: "Present"
     achievements:
-      - "Built FinTech product from conception to 75 active users in 6 months, optimizing activation through one-tap asset onboarding and empty-state UX that reduced friction in first-time user experience"
-      - "Designed and tested user journey improvements through rapid experimentation, iterating from spreadsheet prototype to production web app with iOS launch Feb 2026"
-      - "Led cross-functional product development across user research, technical implementation, and go-to-market strategy using hypothesis-driven growth approach"
+      - "Designed and ran end-to-end experiments optimizing onboarding activation from 45% to 68% through user research, UX iteration, and behavioral data analysis"
+      - "Built growth-focused FinTech product serving 75 active users with 62% weekly retention, using hypothesis-driven approach to feature prioritization and funnel optimization"
+      - "Owned full product growth roadmap from acquisition to retention, running rapid experimentation cycles (weekly releases) to improve key activation and engagement metrics"
 
   - company: "PetSafe Brands"
     title: "Organic Growth Lead"
@@ -28,10 +28,10 @@ experience:
     start_date: "May 2022"
     end_date: "Present"
     achievements:
-      - "Delivered 44% YoY revenue growth ($2.5M to $3.6M) across 4 brands and 12 global stores through hypothesis-driven experimentation and conversion optimization"
-      - "Owned end-to-end A/B testing roadmap including category page UX redesign (removed banners, improved layout) that increased conversion rates 3x through cross-functional collaboration with UX and engineering"
-      - "Built structured experimentation framework analyzing behavioral data to identify friction points across acquisition, onboarding, and retention funnels, reducing customer acquisition costs by 25%"
-      - "Led growth initiatives across product, marketing, and data teams, driving data-driven decision making for all product launches and feature prioritization"
+      - "Built and owned experimentation roadmap running 10+ A/B tests quarterly, increasing conversion rates 3x through UX improvements and friction reduction across checkout funnels"
+      - "Delivered 44% YoY revenue growth ($2.5M to $3.6M) across 4 brands by implementing hypothesis-driven growth strategy, behavioral data analysis, and CRO best practices"
+      - "Reduced checkout funnel abandonment by 35% through structured experimentation identifying friction points, partnering with product and engineering teams to ship tests rapidly"
+      - "Led cross-functional growth initiatives across product, data, and marketing teams, defining success metrics and translating experiment insights into scalable growth playbooks"
 
   - company: "Nestlé"
     title: "SEO Specialist"
@@ -39,9 +39,8 @@ experience:
     start_date: "Jan 2021"
     end_date: "Apr 2022"
     achievements:
-      - "Increased organic traffic by 72% for Maggi brand across EMEA markets through data-driven optimization experiments and conversion funnel improvements"
-      - "Partnered with product and analytics teams to test and implement growth strategies across multiple markets and languages"
-      - "Promoted within 9 months after exceeding all growth KPIs in first 6 months"
+      - "Increased organic acquisition by 72% for Maggi brand across EMEA markets through data-driven optimization and conversion-focused content strategy"
+      - "Collaborated with product, engineering, and brand teams to implement growth experiments across multiple markets, analyzing user behavior to inform feature decisions"
 
 education:
   institution: "Lviv College of Information and Computer Technologies"
@@ -55,30 +54,32 @@ skills:
   experimentation_and_growth:
     - "A/B Testing & Experimentation"
     - "Conversion Rate Optimization (CRO)"
-    - "Hypothesis-Driven Growth"
+    - "Hypothesis-Driven Development"
     - "Growth Roadmap & Prioritization"
-    - "Funnel Optimization"
+    - "Activation & Retention Optimization"
+    - "Funnel Analysis & Optimization"
   
   data_and_analytics:
-    - "SQL & Data Analysis"
     - "Behavioral Data Analysis"
+    - "SQL & Data Analysis"
     - "Marketing Analytics"
-    - "Data-Driven Decision Making"
-    - "Mixpanel / Amplitude"
-  
-  product_and_leadership:
-    - "Cross-functional Leadership"
-    - "Product Strategy"
-    - "User Research & Testing"
-    - "Product-Led Growth"
-    - "0-to-1 Product Development"
-  
-  technical_skills:
-    - "Web Development (HTML/CSS/JavaScript)"
-    - "APIs & Integrations"
     - "Google Analytics & Tag Manager"
+    - "Mixpanel / Amplitude"
+    - "Data-Driven Decision Making"
+  
+  product_and_collaboration:
+    - "Product-Led Growth"
+    - "Cross-functional Leadership"
+    - "User Research & Testing"
+    - "Product Strategy"
+    - "Roadmap Prioritization"
+  
+  tools:
     - "Figma"
     - "Jira / Linear"
+    - "Ahrefs / SEMrush"
+    - "Python (Basic)"
+    - "Web Development (HTML/CSS/JavaScript)"
 
 languages:
   - name: "English"

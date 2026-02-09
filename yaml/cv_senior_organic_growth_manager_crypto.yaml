@@ -1,0 +1,117 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Organic Growth Lead with 5+ years scaling SEO and GEO strategies for DTC brands. Founded net worth tracking platform with crypto integrations (WorthView) and delivered 44% YoY growth through cutting-edge optimization for LLMs, AI Overviews, and traditional search. Expert in technical SEO, content strategy, and high-speed execution.
+
+experience:
+  - company: "WorthView"
+    title: "Founder & Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built crypto and traditional finance tracking platform with live Bitcoin, Ethereum, and altcoin integrations, scaling to 75 active users through product-led organic growth strategy"
+      - "Developed full-stack FinTech product with real-time asset pricing via API integrations, implementing technical SEO best practices into site architecture, page structures, and content experiences"
+      - "Led go-to-market strategy combining technical SEO implementation (structured data, indexation) with content strategy for crypto and traditional finance verticals"
+
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY organic revenue growth ($2.5M to $3.6M) across 12 global stores through cutting-edge GEO strategy, optimizing content for ChatGPT, Google AI Mode, and AI Overviews alongside traditional SEO"
+      - "Partnered with Product and Engineering teams to integrate SEO best practices into site architecture, crawlability, structured data, and indexation, driving SEO-first approach for all product launches at pace"
+      - "Led digital PR initiatives including HARO outreach to secure high-authority backlinks, elevating domain authority and driving competitive advantage through strategic media placements"
+
+  - company: "Nestlé"
+    title: "Organic Growth Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Drove 72% organic traffic growth for Maggi brand across EMEA markets through technical SEO, on-page optimization, and content-led strategy at scale"
+      - "Collaborated with Product and Brand teams to implement international SEO best practices across multiple markets, ensuring fast delivery and high accountability in regulated food industry"
+      - "Promoted within 9 months after exceeding acquisition KPIs, demonstrating ability to operate with pace and turn data into actionable insights quickly"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  organic_growth:
+    - "SEO & GEO (LLMs, AI Overviews)"
+    - "Technical SEO"
+    - "On-Page Optimization"
+    - "Digital PR"
+  
+  domain_expertise:
+    - "Crypto & TradFi"
+    - "Bitcoin, Ethereum, Altcoins"
+    - "Payments & Banking"
+    - "Regulated Industries"
+  
+  tools:
+    - "Google Search Console"
+    - "Ahrefs / SEMrush"
+    - "Google Analytics"
+    - "SQL"
+  
+  execution:
+    - "Product/Engineering Collaboration"
+    - "High-Speed Execution"
+    - "Multi-Market (EMEA)"
+    - "Content Strategy"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

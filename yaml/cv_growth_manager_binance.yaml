@@ -1,0 +1,119 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Growth marketing leader with 5+ years driving user acquisition and retention across FinTech and eCommerce. Founded WorthView with cryptocurrency integration (Bitcoin, Ethereum, altcoins). Delivered 44% YoY growth across CEE and EMEA markets. Crypto enthusiast since 2020. Native Ukrainian and Russian speaker with Polish proficiency.
+
+experience:
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built FinTech platform with cryptocurrency integration (Bitcoin, Ethereum, altcoins), scaling to 75 active users through product-led growth and data-driven user acquisition strategy"
+      - "Executed end-to-end growth campaigns from user research to conversion optimization, mapping user journey and increasing funnel conversion through segmentation and personalization"
+      - "Developed automated user journeys and retention strategies, leveraging analytics to drive engagement and platform ecosystem usage across multiple asset classes"
+
+  - company: "PetSafe Brands"
+    title: "Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY revenue growth ($2.5M to $3.6M) across 12 global markets through growth marketing campaigns, user segmentation, and lifecycle optimization"
+      - "Built data-driven experimentation framework with A/B testing that increased conversion rates by 18% and reduced CAC by 25%, establishing marketing best practices using analytics"
+      - "Executed regional growth campaigns across CEE and EMEA markets, collaborating with local and central stakeholders to drive user acquisition and retention KPIs"
+      - "Led cross-functional initiatives with Product and Engineering teams, optimizing user funnels and driving platform innovation through data insights and user behavior analysis"
+
+  - company: "Nestlé"
+    title: "Growth Marketing Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Drove 72% user acquisition growth for Maggi brand across CEE and EMEA markets, executing localized growth campaigns in Ukrainian, Russian, and Polish"
+      - "Managed regional growth initiatives across multiple markets, collaborating with Brand and Product teams to optimize conversion funnels and user engagement"
+      - "Promoted within 9 months after exceeding KPIs, demonstrating execution-oriented approach and ability to work independently across complex multi-market campaigns"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  growth_marketing:
+    - "Regional Growth Campaigns (CEE/EMEA)"
+    - "User Acquisition & Retention"
+    - "Lifecycle Marketing & Segmentation"
+    - "A/B Testing & Experimentation"
+    - "Conversion Funnel Optimization"
+    - "User Behavior Analysis"
+  
+  blockchain_fintech:
+    - "Cryptocurrency & Blockchain (Bitcoin, Ethereum)"
+    - "FinTech Product Growth"
+    - "Crypto Enthusiast since 2020"
+    - "Web3 & Digital Assets"
+  
+  data_analytics:
+    - "Data-Driven Decision Making"
+    - "Marketing Analytics & Reporting"
+    - "SQL & Data Analysis"
+    - "Google Analytics & Tag Manager"
+    - "Growth Hacking"
+  
+  regional_expertise:
+    - "Multi-Market Campaign Execution"
+    - "CEE/CIS/EMEA Growth Strategy"
+    - "Cross-functional Collaboration"
+    - "Independent A-Z Execution"
+
+languages:
+  - name: "English"
+    proficiency: "Fluent"
+  - name: "Ukrainian"
+    proficiency: "Native"
+  - name: "Russian"
+    proficiency: "Native"
+  - name: "Polish"
+    proficiency: "Fluent"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

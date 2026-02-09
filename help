@@ -1,0 +1,28 @@
+#!/bin/bash
+# CV System Help
+
+cat << 'EOF'
+📚 CV System Commands
+
+GENERATE:
+  ./cv Google           Generate CV from clipboard YAML
+
+OPEN:
+  ./open                Open most recent CV
+  ./open Google         Open specific CV
+  ./open latest         Browse all CVs (menu)
+
+WORKFLOW:
+  1. Claude Projects → paste job → copy YAML (Cmd+C)
+  2. ./cv Google
+  3. Done!
+
+SETUP (one-time):
+  claude.ai → Projects → New "CV Tailoring"
+  Instructions: paste from CLAUDE_PROJECTS_INSTRUCTIONS.txt
+
+DOCS:
+  CHEATSHEET.md         Quick reference
+  WORKFLOW.md           Full guide
+
+EOF

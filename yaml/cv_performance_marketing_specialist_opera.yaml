@@ -1,0 +1,121 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Founder of WorthView FinTech product with crypto integrations (Bitcoin, Ethereum, altcoins live tracking). Delivered 44% YoY growth at PetSafe by building data-driven experimentation frameworks, A/B testing, and conversion optimization that reduced CAC by 25%. Performance marketer with hands-on experience in growth strategy, analytics, and international user acquisition across FinTech and eCommerce.
+
+experience:
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built FinTech product with crypto integrations (Bitcoin, Ethereum, altcoins) for live asset price tracking, growing to 75 active users with iOS launch planned Feb 2026"
+      - "Designed and executed user acquisition strategy using data-driven growth tactics, analyzing user behavior and optimizing conversion funnels"
+      - "Managed product marketing from concept to launch, including go-to-market strategy, performance tracking, and user engagement optimization"
+      - "Analyzed key growth metrics and KPIs using Google Analytics and Amplitude to inform product and marketing decisions"
+
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY revenue growth ($2.5M to $3.6M) across 12 global eCommerce stores through data-driven performance marketing and conversion optimization"
+      - "Built and managed A/B testing framework that increased conversion rates by 18% and reduced customer acquisition costs by 25% through continuous optimization"
+      - "Analyzed campaign performance across international markets (Europe, Africa, Asia) using Google Analytics, Tableau, and Looker Studio to optimize ROI and budget allocation"
+      - "Collaborated with creative, marketing, and product teams to deliver market-specific campaigns and scale user acquisition efficiently"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased organic traffic by 72% for Maggi brand across EMEA markets through data-driven optimization and performance tracking"
+      - "Adapted campaigns for diverse international markets across Europe, Middle East, and Africa, managing multiple languages and regional strategies"
+      - "Promoted to Specialist within 9 months after exceeding all performance KPIs in first 6 months"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  Performance Marketing:
+    - "User Acquisition & Growth Strategy"
+    - "A/B Testing & Experimentation"
+    - "Conversion Optimization"
+    - "Campaign Performance Analysis"
+    - "International Market Campaigns"
+  
+  Data & Analytics:
+    - "Marketing Analytics & KPIs"
+    - "Data-Driven Decision Making"
+    - "Google Analytics & Amplitude"
+    - "Dashboard Building (Tableau, Looker Studio)"
+    - "ROI Optimization & Budget Management"
+  
+  FinTech & Crypto:
+    - "FinTech Product Experience"
+    - "Crypto Integrations (Bitcoin, Ethereum, Altcoins)"
+    - "Mobile-First Growth Strategies"
+    - "App Marketing & User Engagement"
+  
+  Tools & Platforms:
+    - "Google Analytics, Mixpanel, Amplitude"
+    - "Tableau / Looker Studio"
+    - "React Native, Supabase"
+    - "APIs & Integrations"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

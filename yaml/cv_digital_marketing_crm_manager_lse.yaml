@@ -1,0 +1,117 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Digital Marketing and CRM specialist with 5+ years driving commercial growth through SEO, AIO, and website optimization. Delivered 44% YoY revenue growth leveraging technical expertise in CMS platforms, marketing automation, and data-driven user experience improvements. Self-starter with hands-on technical background and passion for education-focused digital initiatives.
+
+experience:
+  - company: "WorthView"
+    title: "Founder & Digital Lead"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built educational financial literacy platform teaching users about net worth management, scaling to 75 active users through content-driven strategy and hands-on CMS management"
+      - "Owned website performance, UX optimization, and site structure, implementing technical best practices for accessibility, load speed, and user journey optimization"
+      - "Led digital marketing strategy combining SEO, content management, and CRM nurture workflows using HubSpot for audience segmentation and automated user journeys"
+
+  - company: "PetSafe Brands"
+    title: "Digital Marketing & SEO Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Led digital marketing strategy delivering 44% YoY revenue growth ($2.5M to $3.6M) through SEO, AIO (AI-driven optimization), website performance improvements, and data-led campaigns"
+      - "Owned website optimization across 12 global sites, partnering with Product and Engineering to establish best practices for CMS management, site architecture, and user experience"
+      - "Managed CRM strategy using Klaviyo for audience segmentation, automated nurture journeys, and performance monitoring, driving 18% conversion rate improvement"
+      - "Used data and insights to continually improve performance across digital channels, establishing analytics frameworks and reporting for stakeholder management"
+
+  - company: "Nestlé"
+    title: "Digital Marketing Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Drove 72% organic traffic growth across EMEA markets through SEO, on-page optimization, search intent analysis, and technical website improvements"
+      - "Partnered with stakeholders to implement digital best practices for content management, site performance, and user experience across multiple markets"
+      - "Promoted within 9 months demonstrating ambitious self-starter mindset and commercial focus on driving measurable results"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  digital_marketing:
+    - "SEO & AIO"
+    - "On-Page Optimization"
+    - "Search Intent Analysis"
+    - "Performance Monitoring"
+  
+  platforms_tools:
+    - "Website Performance & UX"
+    - "CMS Platforms"
+    - "HubSpot & Klaviyo"
+    - "Marketing Automation"
+  
+  technical:
+    - "Site Accessibility"
+    - "Web Development"
+    - "Google Analytics"
+    - "Data Analysis"
+  
+  execution:
+    - "Commercially Driven"
+    - "Stakeholder Management"
+    - "Self-Starter"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

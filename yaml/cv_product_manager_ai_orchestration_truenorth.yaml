@@ -1,0 +1,123 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Technical Product Manager who built WorthView FinTech platform from 0-to-1 using React Native, Supabase backend, and API integrations. AI power user leveraging Cursor AI and Claude Sonnet 4.5 for rapid product development. Experience spanning 0-to-1 mobile products, distributed systems, and cross-functional engineering collaboration.
+
+experience:
+  - company: "WorthView"
+    title: "Founder & Product Lead"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built 0-to-1 FinTech platform from conception to iOS production in 6 months using React Native, Supabase backend, and Twelve Data API for real-time crypto and asset pricing"
+      - "Leveraged Cursor AI with Claude Sonnet 4.5 to accelerate development cycle, shipping MVP to 75 active users with data-driven iteration based on user feedback"
+      - "Architected full-stack mobile product with API integrations, backend infrastructure, and real-time data synchronization across multiple asset classes"
+      - "Led end-to-end product strategy from user research to technical implementation and go-to-market execution using product-led growth approach"
+
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY organic revenue growth ($2.5M to $3.6M) across 12 global eCommerce stores through data-driven experimentation and technical optimization"
+      - "Led cross-functional initiatives with engineering and product teams, driving technical SEO improvements and platform integrations for product launches"
+      - "Built A/B testing framework that increased conversion rates by 18% and reduced customer acquisition costs by 25% through systematic experimentation"
+      - "Promoted to Lead role within 18 months after exceeding all growth KPIs in first year"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased organic traffic by 72% for Maggi brand across EMEA markets through technical optimization and data-driven content strategy"
+      - "Collaborated with product and engineering teams to implement international best practices across multiple markets and languages"
+      - "Promoted to Specialist within 9 months after exceeding all KPIs in first 6 months"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  technical_skills:
+    - "React Native & Mobile Development"
+    - "APIs & Backend Integration (Supabase)"
+    - "SQL & Data Analysis"
+    - "Web Development (HTML/CSS/JavaScript)"
+    - "AI-Assisted Development (Cursor AI, Claude)"
+    - "Git / GitHub"
+  
+  product_management:
+    - "0-to-1 Product Development"
+    - "Product Strategy & Roadmaps"
+    - "Cross-functional Leadership"
+    - "Data-Driven Decision Making"
+    - "A/B Testing & Experimentation"
+    - "User Research & Testing"
+  
+  platform_infrastructure:
+    - "Cloud Backend (Supabase)"
+    - "Real-time Data Systems"
+    - "API Integrations"
+    - "Developer Tools & Workflows"
+  
+  tools:
+    - "Figma"
+    - "Jira / Linear"
+    - "Mixpanel / Amplitude"
+    - "Google Analytics & Tag Manager"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

@@ -1,0 +1,120 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Founder of WorthView wealth tech product with 4+ years digital marketing experience in financial services and eCommerce. Built wealth management platform from conception to production, delivering end-to-end digital strategy. Drove 44% YoY growth at PetSafe through data-driven campaigns, website optimization, and cross-functional partnerships.
+
+experience:
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built wealth management platform from conception to production, scaling to 75 active users with iOS launch planned Feb 2026 through digital-first go-to-market strategy"
+      - "Designed and developed full website and digital experience for FinTech product, integrating live asset pricing APIs and delivering real-time portfolio tracking"
+      - "Led end-to-end digital strategy including user research, content development, and product-led growth campaigns to drive user acquisition and engagement"
+
+  - company: "PetSafe Brands"
+    title: "Digital Marketing Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY revenue growth ($2.5M to $3.6M) across 12 global eCommerce stores through digital campaigns, content strategy, and website optimization"
+      - "Built and optimized landing pages and website content, increasing conversion rates by 18% and reducing customer acquisition costs by 25% through A/B testing"
+      - "Managed influencer partnerships and digital content collaborations, driving engagement and brand awareness across multiple markets"
+      - "Led cross-functional initiatives with product, engineering, and sales teams to deliver integrated digital marketing campaigns and drive commercial outcomes"
+
+  - company: "Nestlé"
+    title: "Digital Marketing Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased digital traffic by 72% for Maggi brand across EMEA markets through integrated digital campaigns and content optimization"
+      - "Collaborated with brand, product, and sales teams to deliver multi-market digital initiatives across multiple languages and regions"
+      - "Promoted within 9 months after exceeding all digital marketing KPIs, demonstrating strong execution and stakeholder management skills"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  digital_marketing:
+    - "Digital Campaigns & Content Strategy"
+    - "Website & Landing Page Development"
+    - "Conversion Rate Optimization"
+    - "Marketing Analytics & Reporting"
+    - "Partnership Marketing"
+    - "A/B Testing & Experimentation"
+  
+  financial_services:
+    - "Wealth Management & FinTech"
+    - "Financial Services Marketing"
+    - "Digital Wealth Products"
+    - "Financial Education Content"
+  
+  stakeholder_collaboration:
+    - "Cross-functional Team Leadership"
+    - "Stakeholder Management"
+    - "Sales & Product Collaboration"
+    - "Data-Driven Decision Making"
+  
+  technical_tools:
+    - "Google Analytics & Tag Manager"
+    - "Web Development (HTML/CSS/JavaScript)"
+    - "CMS & Digital Platforms"
+    - "SQL & Data Analysis"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

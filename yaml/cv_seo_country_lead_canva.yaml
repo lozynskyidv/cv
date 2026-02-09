@@ -1,0 +1,111 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Global SEO lead with 5+ years enterprise-scale experience managing 12 eCommerce websites (3,000+ pages), delivering 44% YoY organic revenue growth. Led end-to-end SEO strategy for UK and Ireland markets including technical SEO, content optimization, and link authority. Combines strategic vision with hands-on execution across technical, content, and authority pillars.
+
+experience:
+  - company: "PetSafe Brands"
+    title: "SEO Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Led end-to-end SEO strategy for UK and Ireland as primary markets across 12 enterprise websites (3,000+ pages), delivering 44% YoY organic revenue growth ($2.5M to $3.6M)"
+      - "Built and published 500+ optimized pages directly in Shopify and Sanity CMS, ensuring on-page SEO best practices, target keyword optimization, and site architecture alignment"
+      - "Led link-building and authority growth initiatives, recovering 1,500 broken backlinks and directing targeted outreach that secured high-quality links from UK publications"
+      - "Owned technical site health (crawl efficiency, site performance, structured data) and partnered with engineers to maintain world-class SEO hygiene across all properties"
+      - "Mentored junior SEO specialists and championed SEO excellence across teams through workshops and training sessions, ensuring cross-functional alignment on best practices"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased organic traffic by 72% for Maggi brand across EMEA markets through technical SEO improvements, content optimization, and international best practices"
+      - "Collaborated with cross-functional teams (product, engineering, content, localization) to ensure pages were high-quality, optimized, and locally relevant across multiple languages"
+      - "Promoted to Specialist within 9 months after delivering measurable growth outcomes and championing SEO excellence across international markets"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+skills:
+  SEO Expertise:
+    - "Technical SEO"
+    - "Content Strategy & Optimization"
+    - "Link Authority Building"
+    - "International SEO"
+    - "SEO Strategy & Execution"
+  
+  Technical & Analytics:
+    - "Web Development (HTML/CSS/JavaScript)"
+    - "Crawl Efficiency & Site Performance"
+    - "Structured Data & Schema"
+    - "Google Analytics & Search Console"
+    - "Data-Driven Decision Making"
+  
+  SEO Tools:
+    - "Ahrefs"
+    - "SEMrush"
+    - "Screaming Frog"
+    - "Conductor"
+    - "Looker"
+    - "Google Tag Manager"
+  
+  Leadership:
+    - "Cross-functional Collaboration"
+    - "Performance Target Setting"
+    - "Stakeholder Management"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

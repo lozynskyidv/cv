@@ -1,0 +1,121 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Product operator who delivered 44% YoY growth at PetSafe by building frameworks for A/B testing, dashboards (Tableau, Looker), and cross-functional collaboration with engineering and product teams. Founded WorthView, managing end-to-end product operations from roadmap planning (Notion, Jira) to launch execution with freelance developers. Experienced in operational systems, launch management, and data-driven decision making across eCommerce and FinTech.
+
+experience:
+  - company: "WorthView"
+    title: "Founder & Product Operations Lead"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Owned end-to-end product operations from roadmap planning (Notion, spreadsheets) to launch execution, shipping web app MVP in 6 months with iOS release planned Feb 2026"
+      - "Managed cross-functional delivery by coordinating with freelance developers, tracking daily active users, and gathering user feedback to inform product iterations"
+      - "Built operational systems for FinTech product including API integrations for live asset pricing, real-time data tracking, and go-to-market launch strategy"
+      - "Established metrics tracking framework using SQL, Google Analytics, and Amplitude to monitor product health and optimize user engagement"
+
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY organic revenue growth ($2.5M to $3.6M) across 12 global eCommerce stores by building operational frameworks for A/B testing, conversion optimization, and cross-functional collaboration"
+      - "Built dashboards in Tableau and Looker Studio to track product health metrics, surface insights, and inform data-driven decision making across growth initiatives"
+      - "Coordinated weekly with engineering and product teams on launch planning, roadmap prioritization, and technical implementations for all product releases"
+      - "Established experimentation framework with A/B testing of landing pages that increased conversion rates by 18% and reduced customer acquisition costs by 25%"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased organic traffic by 72% for Maggi brand across EMEA markets through data-driven optimization strategy and cross-functional collaboration"
+      - "Partnered with product, engineering, and brand teams to implement technical improvements and operational best practices across multiple markets and languages"
+      - "Promoted to Specialist within 9 months after exceeding all KPIs in first 6 months"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  Product Operations:
+    - "Product Launch Management"
+    - "Operational Frameworks & Processes"
+    - "Cross-functional Coordination"
+    - "Roadmap Planning & Prioritization"
+    - "A/B Testing & Experimentation"
+  
+  Data & Analytics:
+    - "SQL & Data Analysis"
+    - "Dashboard Building (Tableau, Looker Studio)"
+    - "Product Metrics & KPIs"
+    - "Google Analytics & Amplitude"
+    - "Data-Driven Decision Making"
+  
+  Technical Skills:
+    - "APIs & Integrations"
+    - "Web Development (HTML/CSS/JavaScript)"
+    - "Jira / Linear / Notion"
+    - "Git / GitHub"
+  
+  Marketplace & eCommerce:
+    - "Multi-store eCommerce Operations"
+    - "Conversion Optimization"
+    - "FinTech Product Experience"
+    - "Payment Systems & Live Data Tracking"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

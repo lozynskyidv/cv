@@ -1,0 +1,69 @@
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Organic Growth Lead with 5+ years scaling SEO, ASO, and owned acquisition for high-growth consumer products. Led 44% YoY organic revenue growth across global eCommerce, built attribution models to measure incrementality, and owned GEO strategies across AI-powered discovery platforms.
+
+experience:
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built FinTech app end-to-end, owning product strategy, technical architecture, and iOS App Store launch"
+      - "Designed ASO strategy for iOS launch, targeting high-intent keywords in personal finance and net worth tracking"
+      - "Built landing pages optimised for organic discovery, driving early user acquisition through search and direct traffic"
+
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Led global organic growth across 12 eCommerce stores, delivering 44% YoY growth to $2.5M organic revenue"
+      - "Built attribution models and dashboards to measure organic incrementality, informing cross-channel investment strategy"
+      - "Owned $500K SEO budget, managing vendor relationships and tool stack to optimise spend efficiency"
+      - "Partnered with Product and Engineering to align organic strategy with UX improvements, doubling CVR from 1.7% to 3.5%"
+      - "Developed structured frameworks for experimentation prioritisation, balancing quick wins with long-term SEO foundations"
+      - "Scaled content systems across 12 markets with 100+ guides, driving 27% incremental traffic growth"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Led organic growth for Maggi, increasing traffic by 72% across EMEA markets through technical SEO and content"
+      - "Optimised site architecture and Core Web Vitals, improving crawl efficiency and organic visibility at scale"
+      - "Built content strategy for recipe pages, optimising for featured snippets and high-intent search queries"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+skills:
+  Organic Growth:
+    - "SEO"
+    - "ASO"
+    - "GEO"
+    - "Content Strategy"
+    - "Product-Led Growth"
+  Technical & Analytics:
+    - "Technical SEO"
+    - "Attribution Modeling"
+    - "Incrementality Measurement"
+    - "GA4"
+    - "Search Console"
+  Leadership & Execution:
+    - "Cross-Functional Collaboration"
+    - "Vendor Management"
+    - "Experimentation Frameworks"
+    - "Budget Ownership"

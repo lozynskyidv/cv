@@ -1,0 +1,122 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Content Marketing Lead with 5+ years experience delivering 44% YoY growth through content strategy, SEO, and brand awareness campaigns. FinTech founder (WorthView) with expertise in consumer financial services content, PR, and multi-market content activation. Proven track record managing agencies, creating compelling content, and measuring performance across digital channels.
+
+experience:
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built consumer FinTech product for net worth tracking with live asset pricing, developing content strategy and brand messaging for financial services audience"
+      - "Created and executed go-to-market content marketing strategy, producing articles and educational content to drive customer acquisition and engagement for financial planning platform"
+      - "Hired and coordinated contractors (designers, developers) to deliver brand assets and website content, maintaining consistent tone of voice across digital platforms"
+
+  - company: "PetSafe Brands"
+    title: "Content Marketing & SEO Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY revenue growth ($2.5M to $3.6M) through content marketing strategy including blog articles, industry reports, infographics, and AI-powered content creation across 12 markets"
+      - "Managed content calendar and cross-functional collaboration with product, research, and engineering teams to create engaging, SEO-optimized content that increased organic traffic and customer engagement"
+      - "Oversaw external agencies (content writers, designers, translators) to produce high-quality content for multi-market distribution, ensuring consistent brand voice and localization"
+      - "Conducted media outreach and journalist relations to enhance brand visibility, while measuring content performance using analytics tools to provide actionable insights and optimize future campaigns"
+
+  - company: "Nestlé"
+    title: "Content & SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased organic visibility by 72% for Maggi brand through content creation, SEO optimization, and content activation across EMEA markets"
+      - "Collaborated with brand and agency partners to produce localized content for multiple markets, adapting content to regional audiences and cultural preferences"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  content_marketing:
+    - "Content Strategy & Execution"
+    - "Brand Awareness & Engagement"
+    - "Content Creation (Articles, Reports, Infographics)"
+    - "Content Calendar Management"
+    - "SEO Optimization"
+    - "CMS & Website Copywriting"
+  
+  pr_and_media:
+    - "PR Content & Press Releases"
+    - "Media Relations & Journalist Outreach"
+    - "Agency Management"
+    - "Multi-market Content Activation"
+    - "Content Localization"
+  
+  analytics_and_collaboration:
+    - "Marketing Analytics & Performance Measurement"
+    - "Google Analytics"
+    - "Cross-functional Collaboration"
+    - "Data-Driven Decision Making"
+    - "A/B Testing & Experimentation"
+  
+  technical_skills:
+    - "CMS Platforms"
+    - "Ahrefs & SEMrush"
+    - "Web Development (HTML/CSS/JavaScript)"
+    - "Figma"
+    - "SQL & Data Analysis"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

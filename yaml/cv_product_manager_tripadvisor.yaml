@@ -1,0 +1,123 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Founder of WorthView FinTech product, built from conception to production using AI tools (Cursor AI) with strong technical skills to dive into software architecture and design tradeoffs. 3+ years leading cross-functional teams through development lifecycle, delivering 44% YoY growth. Expertise in analytics, performance metrics, and agile development.
+
+experience:
+  - company: "WorthView"
+    title: "Founder & Product Manager"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Led product from conception through launch in 6 months, owning software development lifecycle from requirements to production deployment serving 75 active users"
+      - "Built product using AI tools (Cursor AI) with strong technical foundation, diving into software architecture decisions (Supabase, React Native, API integrations) and design tradeoffs"
+      - "Managed technical projects through agile development cycles, tracking milestones and communicating progress across stakeholders while creating and analyzing performance metrics"
+
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Led cross-functional teams (product, engineering, marketing) through software development lifecycle, owning product features from conception through launch across 12 global D2C eCommerce platforms"
+      - "Delivered 44% YoY revenue growth ($2.5M to $3.6M) by developing requirements informed by product strategy, customer feedback, technical feasibility, and using AI tools (AirOps AI) to improve efficiency"
+      - "Created, analyzed, and communicated analytics and performance metrics, managing technical projects and tracking progress towards milestones in agile development cycles"
+      - "Worked with business stakeholders to translate strategic business ideas into product specifications, achieving 18% conversion increase and 25% CAC reduction through data-driven decisions"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Delivered 72% growth for Maggi brand across EMEA markets, collaborating with product and engineering teams to implement technical solutions across multiple markets"
+      - "Communicated effectively with various audiences across different seniority levels and functions, meeting deadlines through strong time-management and prioritization skills"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  product_management:
+    - "Cross-functional Leadership"
+    - "Software Development Lifecycle"
+    - "Product Strategy & Roadmaps"
+    - "Technical Project Management"
+    - "Agile Development"
+    - "Business Stakeholder Collaboration"
+  
+  technical_skills:
+    - "Software Architecture & Design Tradeoffs"
+    - "AI Tools (Cursor AI, AirOps AI)"
+    - "APIs & Integrations"
+    - "Web Development (HTML/CSS/JavaScript)"
+    - "SQL & Data Analysis"
+    - "Technical Feasibility Assessment"
+  
+  analytics_and_execution:
+    - "Analytics & Performance Metrics"
+    - "Data-Driven Decision Making"
+    - "A/B Testing & Experimentation"
+    - "Requirements & Specifications"
+    - "Milestone Tracking"
+  
+  tools_and_collaboration:
+    - "Jira & Linear"
+    - "Google Analytics"
+    - "Mixpanel & Amplitude"
+    - "Figma"
+    - "Git & GitHub"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

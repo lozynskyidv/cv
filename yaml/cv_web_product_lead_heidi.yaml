@@ -1,0 +1,114 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Growth lead and founder combining technical execution with conversion optimization. Delivered 44% YoY revenue growth and doubled conversion rates (1.7% to 3.5%) across 12 eCommerce websites (3,000+ pages). Built FinTech iOS app using AI coding agents (Claude Sonnet, Cursor AI) for rapid iteration.
+
+experience:
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built consumer iOS app with landing page optimized for conversion, using rapid experimentation to improve activation flows and user onboarding"
+      - "Used AI-native workflows (Cursor AI with Claude) to accelerate website iteration, shipping experiments and improvements continuously"
+      - "Developed full-stack web product from conception to production in 6 months with outcome-driven approach focused on measurable conversion and engagement metrics"
+
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Led growth strategy across 12 global eCommerce websites (3,000+ pages), defining conversion goals and running continuous A/B testing program that doubled conversion rates from 1.7% to 3.5%"
+      - "Delivered 44% YoY revenue growth ($2.5M to $3.6M) through outcome-driven roadmap prioritizing landing page optimization, UX improvements, and page speed (Core Web Vitals)"
+      - "Built A/B testing framework using VWO with engineers, shipping experiments weekly and using data to drive compounding improvements across user journeys"
+      - "Used AI-native workflows (AirOps, ChatGPT, Claude) to accelerate content generation and experimentation, increasing output and velocity without adding headcount"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased organic traffic by 72% for Maggi brand across EMEA markets through data-driven optimization and continuous improvement of website performance"
+      - "Partnered with engineers and designers to ship website improvements rapidly, maintaining strong fundamentals (performance, accessibility, SEO)"
+      - "Promoted to Specialist within 9 months after exceeding all outcome-driven KPIs through measurable impact over output"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+skills:
+  Growth & Conversion:
+    - "Conversion Optimization"
+    - "A/B Testing & Experimentation"
+    - "Landing Page Optimization"
+    - "SEO"
+  
+  AI & Tools:
+    - "AI Workflows (Claude, ChatGPT, AirOps)"
+    - "VWO (A/B Testing Platform)"
+    - "Google Analytics & Tag Manager"
+    - "Mixpanel"
+  
+  Web Development:
+    - "HTML/CSS/JavaScript"
+    - "Page Speed Optimization"
+    - "Technical Fluency"
+  
+  Collaboration:
+    - "Cross-functional Leadership"
+    - "Engineering Partnership"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

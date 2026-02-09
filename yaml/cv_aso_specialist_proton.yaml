@@ -1,0 +1,124 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  SEO Lead with 5+ years experience and ASO expertise, delivering 44% YoY organic growth across 12 international markets. Proven track record scaling multi-market SEO strategies with hands-on App Store Optimization experience for iOS launch. Expert in keyword research, localization, and creative asset optimization across web and mobile platforms.
+
+experience:
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Led App Store Optimization for iOS launch (Feb 2026), conducting keyword research for Apple App Store metadata, optimizing app title/subtitle/description for organic discoverability"
+      - "Designed and A/B tested creative assets (app screenshots, icons) for conversion optimization, collaborating with design resources to test visual variations based on user feedback"
+      - "Built unified organic acquisition strategy across web and mobile, integrating SEO landing pages with app store presence using Firebase and Google Analytics for performance tracking"
+
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY organic revenue growth ($2.5M to $3.6M) across 12 global markets through technical SEO, keyword research, and localization strategies tailored to regional search behavior"
+      - "Scaled international SEO efforts with regional teams and translators, optimizing metadata and content for cultural preferences across multiple languages and markets"
+      - "Built A/B testing framework for creative asset optimization (product images, landing page visuals), increasing conversion rates by 18% through data-driven experimentation"
+      - "Collaborated with Product, Engineering, and Marketing teams to integrate SEO into product launches, using analytics tools (Google Analytics, Firebase, SensorTower) to track KPIs and optimize organic acquisition funnel"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased organic traffic by 72% for Maggi brand across EMEA markets (UK, France, Germany, Italy, Poland, Ukraine) through technical SEO, keyword research, and international optimization"
+      - "Implemented localization workflows with regional teams, adapting content and metadata for cultural preferences and search behavior across multiple languages"
+      - "Used Ahrefs and SEMrush for competitive analysis and keyword research, identifying international growth opportunities to prioritize market expansion"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  organic_growth:
+    - "Technical SEO"
+    - "App Store Optimization (iOS & Android)"
+    - "Keyword Research & Optimization"
+    - "International SEO & Localization"
+    - "Content Optimization Strategy"
+    - "Organic Acquisition Funnel"
+  
+  data_and_analytics:
+    - "SensorTower"
+    - "Ahrefs & SEMrush"
+    - "Google Analytics & Firebase"
+    - "App Store Connect & Google Play Console"
+    - "Marketing Analytics & KPIs"
+    - "A/B Testing & Experimentation"
+  
+  creative_and_collaboration:
+    - "Creative Asset Optimization"
+    - "Cross-functional Collaboration"
+    - "Multi-market Scaling"
+    - "Localization Workflows"
+    - "Product & Design Collaboration"
+  
+  technical_skills:
+    - "SQL & Data Analysis"
+    - "Web Development (HTML/CSS/JavaScript)"
+    - "Python (Basic)"
+    - "Figma"
+    - "Git & GitHub"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"

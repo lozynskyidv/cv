@@ -1,0 +1,82 @@
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  Organic growth leader with 5+ years scaling SEO, programmatic content, and owned channels for consumer brands. Drove 44% YoY revenue growth at PetSafe through AI content systems and experimentation. Currently building fintech consumer app.
+
+# Company/Product Context
+context:
+  worthview: "FinTech personal finance app for net worth tracking - assets and liabilities with live pricing. Built with Cursor AI Sonnet 4.5, Supabase backend, React Native iOS app, Twelve Data API integration. worthview.app"
+  petsafe: "Global eCommerce pet products brand operating 12 online stores across US and Europe"
+  nestle: "Global food and beverage company (Maggi brand in EMEA markets)"
+
+experience:
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Scaled organic revenue 44% YoY across 12 stores, contributing €2.1M incremental revenue and reducing blended CAC by 18%"
+      - "Built AI content engine using AirOps, generating 400+ SEO-optimized pages that drove 180K monthly organic sessions"
+      - "Designed and ran 23 experiments testing technical SEO, content formats, and internal linking, improving conversion rate by 12%"
+      - "Managed 3 external agencies (technical SEO, content, link building) with €120K budget, setting KPIs and standards"
+      - "Developed attribution model isolating organic's incremental contribution, proving 2.3x higher LTV vs paid channels"
+      - "Optimized site speed with Engineering, reducing load time by 1.2s and lifting rankings for 340 keywords"
+      - "Scaled programmatic SEO from 80 to 480 pages, capturing long-tail search volume and product discovery"
+      - "Implemented structured data and technical foundations, increasing rich snippet visibility by 67%"
+
+  - company: "WorthView"
+    title: "Founder"
+    location: "Dublin, Ireland"
+    start_date: "Feb 2025"
+    end_date: "Present"
+    achievements:
+      - "Built personal finance app 0-to-1, owning product strategy, technical execution, and user experience for consumer fintech"
+      - "Developed deep understanding of mobile app dynamics, consumer behavior, and fintech user needs through hands-on building"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Drove 72% organic traffic growth for Maggi across 8 EMEA markets through technical SEO and content optimization"
+      - "Built SEO roadmap balancing quick wins with long-term strategies across site architecture and content systems"
+      - "Conducted keyword research and competitive analysis across markets, identifying 200+ high-intent opportunities"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+skills:
+  Organic & Owned:
+    - "SEO (Technical, Content, Off-Page)"
+    - "Programmatic SEO"
+    - "App Store Optimization"
+    - "Content Strategy"
+    - "Generative Engine Optimization"
+  Growth & Analytics:
+    - "Experimentation & A/B Testing"
+    - "Attribution Modeling"
+    - "Conversion Rate Optimization"
+    - "Cohort & Retention Analysis"
+    - "Incrementality Measurement"
+  Technical:
+    - "Google Analytics & Search Console"
+    - "Ahrefs & Semrush"
+    - "SQL & Looker"
+    - "Python & Automation"
+    - "AI Content Systems (AirOps)"
+  Leadership:
+    - "Agency Management"
+    - "Cross-Functional Collaboration"
+    - "Roadmap Planning"
+    - "Budget Management"

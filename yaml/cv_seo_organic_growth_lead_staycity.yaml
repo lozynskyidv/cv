@@ -1,0 +1,111 @@
+# Master CV Data - Source of Truth
+# LinkedIn facts only - AI generates compelling bullets from this
+
+personal_info:
+  name: "Dmytro Lozynskyi"
+  phone: "+353 87 268 9197"
+  email: "lozynskyidv@gmail.com"
+  linkedin: "linkedin.com/in/dlozynskyi"
+  location: "Dublin, Ireland"
+
+profile: |
+  SEO & Organic Growth Lead with 5 years driving measurable organic growth across global eCommerce. Delivered 44% YoY revenue growth at PetSafe Brands through technical SEO, AI-driven content strategy, and multilingual optimization. Experienced in future-proofing organic acquisition for AI discovery (SGE, LLMs) and conversion-focused SEO.
+
+experience:
+  - company: "PetSafe Brands"
+    title: "Organic Growth Lead"
+    location: "Dublin, Ireland"
+    start_date: "May 2022"
+    end_date: "Present"
+    achievements:
+      - "Delivered 44% YoY organic revenue growth ($2.5M to $3.6M) across 12 global eCommerce stores through technical SEO, AI-driven content strategy using AirOps and Profound, and multilingual optimization"
+      - "Led international SEO strategy for 3,000+ pages across French, German, Spanish, and Italian markets, implementing hreflang tags and localized content to increase EMEA organic traffic by 65%"
+      - "Built and executed 12-month organic growth roadmap through competitor SERP analysis, keyword research, and attribution modeling across full marketing funnel to identify and prioritize highest-impact opportunities"
+      - "Future-proofed organic acquisition by implementing schema markup and AI-driven content rewrites that doubled brand mentions in ChatGPT responses and increased citations in LLM-powered search results"
+
+  - company: "Nestlé"
+    title: "SEO Specialist"
+    location: "Lviv, Ukraine"
+    start_date: "Jan 2021"
+    end_date: "Apr 2022"
+    achievements:
+      - "Increased organic traffic by 72% for Maggi brand across EMEA markets through hands-on technical SEO audits using Screaming Frog, link-building campaigns, and content optimization"
+      - "Managed multilingual content strategy across 8 European markets, coordinating with local teams to scale localized content and implement international SEO best practices"
+      - "Conducted editorial project management including brief-writing and copy-editing for 200+ content pieces, aligning cross-functional stakeholders around SEO-first content approach"
+
+education:
+  institution: "Lviv College of Information and Computer Technologies"
+  degree: "Associate's degree"
+  field: "Information Systems and Software Applications"
+  location: "Lviv, Ukraine"
+  graduation_date: "Sep 2017 - Jul 2020"
+
+# Skills - AI will reorder categories and items based on job requirements
+skills:
+  Technical SEO:
+    - "Technical SEO Audits"
+    - "Core Web Vitals Optimization"
+    - "International SEO & Hreflang"
+    - "Schema Markup & Site Architecture"
+    - "Link-Building, EEAT Best Practices"
+  
+  Content Strategy:
+    - "Editorial Project Management"
+    - "Multilingual Content Scaling"
+    - "Brief-Writing & Copy-Editing"
+    - "AI-Assisted Content Workflows"
+    - "Content Strategy & Roadmaps"
+  
+  Analytics & Tools:
+    - "GA4 & Google Search Console"
+    - "Screaming Frog"
+    - "Semrush & Ahrefs"
+    - "Ahrefs Brand Radar"
+    - "AirOps & Profound"
+  
+  AI & LLM Search:
+    - "AI Discovery (SGE, Gemini, ChatGPT)"
+    - "Voice Search Optimization"
+    - "LLM Content Generation"
+    - "Cross-functional Stakeholder Alignment"
+
+languages:
+  - name: "English"
+    proficiency: "Native or bilingual"
+  - name: "Ukrainian"
+    proficiency: "Native or bilingual"
+  - name: "Russian"
+    proficiency: "Native or bilingual"
+  - name: "Polish"
+    proficiency: "Professional working"
+  - name: "Italian"
+    proficiency: "Elementary"
+
+# Additional context for AI
+context:
+  target_roles:
+    - "Product Manager"
+    - "Growth Manager"
+    - "Product Growth Manager"
+    - "Technical PM"
+  
+  target_companies:
+    - "Google"
+    - "Meta"
+    - "Revolut"
+    - "Wise"
+    - "Stripe"
+    - "London-based tech companies"
+  
+  key_strengths:
+    - "0→1 product building (founded WorthView)"
+    - "Growth at scale (44% YoY at PetSafe)"
+    - "Technical execution (built product myself)"
+    - "Cross-functional leadership"
+    - "Data-driven decision making"
+  
+  unique_angles:
+    - "Founder + operator (rare for PM roles)"
+    - "FinTech product experience (WorthView)"
+    - "eCommerce scale experience (PetSafe 12 stores)"
+    - "International experience (Ukraine, Ireland, UK)"
