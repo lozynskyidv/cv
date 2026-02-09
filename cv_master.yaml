@@ -1,6 +1,3 @@
-# Master CV Data - Source of Truth
-# LinkedIn facts only - AI generates compelling bullets from this
-
 personal_info:
   name: "Dmytro Lozynskyi"
   phone: "+353 87 268 9197"
@@ -9,7 +6,7 @@ personal_info:
   location: "Dublin, Ireland"
 
 profile: |
-  Founder of WorthView FinTech product, building it from conception to production with hands-on technical execution. Delivered 44% YoY growth at PetSafe Brands across 12 global eCommerce stores. Product leader with experience in 0-to-1 development, growth at scale, and cross-functional leadership across FinTech and eCommerce.
+  INSTRUCTION: Generate 2-3 sentence profile for THIS specific role. Lead with most relevant experience. Approximately 250-350 characters.
 
 experience:
   - company: "WorthView"
@@ -19,7 +16,6 @@ experience:
     end_date: "Present"
     achievements:
       - "Designed and built WorthView end-to-end, iterating from a spreadsheet to a production web app MVP, with iOS release planned for Feb 2026"
-      - "Asset and liability tracking with live pricing"
 
   - company: "PetSafe Brands"
     title: "Organic Growth Lead"
@@ -28,8 +24,6 @@ experience:
     end_date: "Present"
     achievements:
       - "Led global AI-driven organic growth across 12 eCommerce stores, delivering 44% YoY organic revenue growth"
-      - "Increased conversion rates by 18% and reduced customer acquisition costs by 25%"
-      - "Promoted to Lead role within 18 months after exceeding all growth KPIs"
 
   - company: "Nestlé"
     title: "SEO Specialist"
@@ -38,8 +32,6 @@ experience:
     end_date: "Apr 2022"
     achievements:
       - "Led organic growth for Maggi, increasing traffic by 72% across EMEA markets"
-      - "Collaborated with product and brand teams across multiple markets and languages"
-      - "Promoted to Specialist within 9 months after exceeding all KPIs"
 
 education:
   institution: "Lviv College of Information and Computer Technologies"
@@ -48,79 +40,28 @@ education:
   location: "Lviv, Ukraine"
   graduation_date: "Sep 2017 - Jul 2020"
 
-# Skills - AI will reorder categories and items based on job requirements
 skills:
-  product_management:
-    - "Product Strategy"
-    - "0-to-1 Product Development"
-    - "Product-Led Growth"
-    - "User Research & Testing"
-    - "A/B Testing & Experimentation"
-    - "Data-Driven Decision Making"
-    - "Roadmap Prioritization"
-    - "Cross-functional Leadership"
-  
-  growth_marketing:
-    - "Growth Strategy"
-    - "Organic Growth (SEO)"
-    - "Conversion Optimization"
-    - "Marketing Analytics"
-    - "Customer Acquisition"
-    - "Retention & Engagement"
-    - "Content Strategy"
-  
-  technical_skills:
-    - "SQL & Data Analysis"
-    - "Python (Basic)"
-    - "Web Development (HTML/CSS/JavaScript)"
-    - "APIs & Integrations"
-    - "Google Analytics & Tag Manager"
-    - "Full-Stack Development"
-  
-  tools:
-    - "Figma"
-    - "Mixpanel / Amplitude"
-    - "Ahrefs / SEMrush"
-    - "Jira / Linear"
-    - "Git / GitHub"
-
-languages:
-  - name: "English"
-    proficiency: "Native or bilingual"
-  - name: "Ukrainian"
-    proficiency: "Native or bilingual"
-  - name: "Russian"
-    proficiency: "Native or bilingual"
-  - name: "Polish"
-    proficiency: "Professional working"
-  - name: "Italian"
-    proficiency: "Elementary"
-
-# Additional context for AI
-context:
-  target_roles:
-    - "Product Manager"
-    - "Growth Manager"
-    - "Product Growth Manager"
-    - "Technical PM"
-  
-  target_companies:
-    - "Google"
-    - "Meta"
-    - "Revolut"
-    - "Wise"
-    - "Stripe"
-    - "London-based tech companies"
-  
-  key_strengths:
-    - "0→1 product building (founded WorthView)"
-    - "Growth at scale (44% YoY at PetSafe)"
-    - "Technical execution (built product myself)"
-    - "Cross-functional leadership"
-    - "Data-driven decision making"
-  
-  unique_angles:
-    - "Founder + operator (rare for PM roles)"
-    - "FinTech product experience (WorthView)"
-    - "eCommerce scale experience (PetSafe 12 stores)"
-    - "International experience (Ukraine, Ireland, UK)"
+  relevant_skill_category_1:
+    - "relevant skill 1"
+    - "relevant skill 2"
+    - "relevant skill 3"
+    - "relevant skill 4"
+    - "relevant skill 5"
+  relevant_skill_category_2:
+    - "relevant skill 1"
+    - "relevant skill 2"
+    - "relevant skill 3"
+    - "relevant skill 4"
+    - "relevant skill 5"
+  relevant_skill_category_3:
+    - "relevant skill 1"
+    - "relevant skill 2"
+    - "relevant skill 3"
+    - "relevant skill 4"
+    - "relevant skill 5"
+  relevant_skill_category_4:
+    - "relevant skill 1"
+    - "relevant skill 2"
+    - "relevant skill 3"
+    - "relevant skill 4"
+    - "relevant skill 5"
