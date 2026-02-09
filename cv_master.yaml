@@ -8,6 +8,12 @@ personal_info:
 profile: |
   INSTRUCTION: Generate 2-3 sentence profile for THIS specific role. Lead with most relevant experience. Approximately 250-350 characters.
 
+# Company/Product Context
+context:
+  worthview: "FinTech personal finance app for net worth tracking - assets and liabilities with live pricing. Built with Cursor AI Sonnet 4.5, Supabase backend, React Native iOS app, Twelve Data API integration. worthview.app"
+  petsafe: "Global eCommerce pet products brand operating 12 online stores across US and Europe"
+  nestle: "Global food and beverage company (Maggi brand in EMEA markets)"
+
 experience:
   - company: "WorthView"
     title: "Founder"
