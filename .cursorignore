@@ -1,0 +1,15 @@
+# Exclude job-specific YAML files from Cursor context
+# These are tailored versions - AI doesn't need them loaded
+yaml/cv_*.yaml
+
+# Exclude generated PDFs (binary files, not useful for AI)
+resumes/*.pdf
+
+# Exclude intermediate Typst files
+typ_files/
+
+# Exclude README (documentation only, redundant with .cursorrules)
+README.md
+
+# Note: cv_master.yaml and TAILORING_GUIDE.md are NOT excluded
+# These are the source of truth and instructions the AI needs
